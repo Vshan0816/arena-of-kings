@@ -43,12 +43,12 @@
     "classes":[
         {
             "class": "Assassin",
-            "classLogo":"../public/Images/ClassLogos/Assassingif.gif",
+            "classLogo":"public/Images/ClassLogos/Assassingif.gif",
             "skills":[
                 {
                     "assassinBasicAttack": {
                         "skillName":"Assassin Basic Attack",
-                        "icon":"../public/Images/Assassin/Assassin.png",
+                        "icon":"public/Images/Assassin/Assassin.png",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -59,7 +59,7 @@
                 {
                     "annihilate": {
                         "skillName":"Annihilate",
-                        "icon":"../public/Images/Assassin/Annihilate.jpg",
+                        "icon":"public/Images/Assassin/Annihilate.jpg",
                         "cost":"50 Energy",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -70,7 +70,7 @@
                 {
                     "bandage": {
                         "skillName":"Bandage",
-                        "icon":"../public/Images/Assassin/Bandage.jpg",
+                        "icon":"public/Images/Assassin/Bandage.jpg",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"10 seconds",
@@ -81,7 +81,7 @@
                 {
                     "dash": {
                         "skillName":"Dash",
-                        "icon":"../public/Images/Assassin/Dash.jpg",
+                        "icon":"public/Images/Assassin/Dash.jpg",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -92,7 +92,7 @@
                 {
                     "daze": {
                         "skillName":"Daze",
-                        "icon":"../public/Images/Assassin/Daze.jpg",
+                        "icon":"public/Images/Assassin/Daze.jpg",
                         "cost":"25 Energy",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -103,7 +103,7 @@
                 {
                     "disappearingAct": {
                         "skillName":"Disappearing Act",
-                        "icon":"../public/Images/Assassin/DisappearingAct.jpg",
+                        "icon":"public/Images/Assassin/DisappearingAct.jpg",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"45 seconds",
@@ -114,7 +114,7 @@
                 {
                     "envenom": {
                         "skillName":"Envenom",
-                        "icon":"../public/Images/Assassin/Envenom.jpg",
+                        "icon":"public/Images/Assassin/Envenom.jpg",
                         "cost":"20 Energy",
                         "castTime":"Instant",
                         "cooldown":"5 seconds",
@@ -125,7 +125,7 @@
                 {
                     "murderousInstincts": {
                         "skillName":"Murderous Instincts",
-                        "icon":"../public/Images/Assassin/MurderousInstincts.jpg",
+                        "icon":"public/Images/Assassin/MurderousInstincts.jpg",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"45 seconds",
@@ -136,7 +136,7 @@
                 {
                     "puncture": {
                         "skillName":"Puncture",
-                        "icon":"../public/Images/Assassin/Puncture.jpg",
+                        "icon":"public/Images/Assassin/Puncture.jpg",
                         "cost":"20 Energy",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -147,7 +147,7 @@
                 {
                     "shadowWalk": {
                         "skillName":"Shadow Walk",
-                        "icon":"../public/Images/Assassin/ShadowWalk.jpg",
+                        "icon":"public/Images/Assassin/ShadowWalk.jpg",
                         "cost":"15 Energy",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -158,7 +158,7 @@
                 {
                     "shroud": {
                         "skillName":"Shroud",
-                        "icon":"../public/Images/Assassin/Shroud.jpg",
+                        "icon":"public/Images/Assassin/Shroud.jpg",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"45 seconds",
@@ -169,7 +169,7 @@
                 {
                     "slap": {
                         "skillName":"Slap",
-                        "icon":"../public/Images/Assassin/Slap.jpg",
+                        "icon":"public/Images/Assassin/Slap.jpg",
                         "cost":"20 Energy",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -180,7 +180,7 @@
                 {
                     "slash": {
                         "skillName":"Slash",
-                        "icon":"../public/Images/Assassin/Slash.jpg",
+                        "icon":"public/Images/Assassin/Slash.jpg",
                         "cost":"35 Energy",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -191,7 +191,7 @@
                 {
                     "stealth": {
                         "skillName":"Stealth",
-                        "icon":"../public/Images/Assassin/Stealth.jpg",
+                        "icon":"public/Images/Assassin/Stealth.jpg",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -202,7 +202,7 @@
                 {
                     "templeStrike": {
                         "skillName":"Temple Strike",
-                        "icon":"../public/Images/Assassin/TempleStrike.jpg",
+                        "icon":"public/Images/Assassin/TempleStrike.jpg",
                         "cost":"35 Energy",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -213,7 +213,7 @@
                 {
                     "whirlingKnives": {
                         "skillName":"Whirling Knives",
-                        "icon":"../public/Images/Assassin/WhirlingKnives.jpg",
+                        "icon":"public/Images/Assassin/WhirlingKnives.jpg",
                         "cost":"50 Energy",
                         "castTime":"Instant",
                         "cooldown":"6 seconds",
@@ -225,12 +225,12 @@
         },
         {
             "class": "Champion",
-            "classLogo":"../public/Images/ClassLogos/Championgif.gif",
+            "classLogo":"public/Images/ClassLogos/Championgif.gif",
             "skills":[
                 {
                     "championBasicAttack": {
                         "skillName":"Champion Basic Attack",
-                        "icon":"../public/Images/Champion/Champion.png",
+                        "icon":"public/Images/Champion/Champion.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -241,7 +241,7 @@
                 {
                     "disruptingBlade": {
                         "skillName":"Disrupting Blade",
-                        "icon":"../public/Images/Champion/DisruptingBlade.png",
+                        "icon":"public/Images/Champion/DisruptingBlade.png",
                         "cost":"10 Rage",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -252,7 +252,7 @@
                 {
                     "charge": {
                         "skillName":"Charge",
-                        "icon":"../public/Images/Champion/Charge.png",
+                        "icon":"public/Images/Champion/Charge.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"18 seconds",
@@ -263,7 +263,7 @@
                 {
                     "coward": {
                         "skillName":"Coward",
-                        "icon":"../public/Images/Champion/Coward.png",
+                        "icon":"public/Images/Champion/Coward.png",
                         "cost":"30 Rage",
                         "castTime":"Instant",
                         "cooldown":"40 seconds",
@@ -274,7 +274,7 @@
                 {
                     "cripplingSlash": {
                         "skillName":"Crippling Slash",
-                        "icon":"../public/Images/Champion/CripplingSlash.png",
+                        "icon":"public/Images/Champion/CripplingSlash.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"6 seconds",
@@ -285,7 +285,7 @@
                 {
                     "crushingBlow": {
                         "skillName":"Crushing Blow",
-                        "icon":"../public/Images/Champion/CrushingBlow.png",
+                        "icon":"public/Images/Champion/CrushingBlow.png",
                         "cost":"30 Rage",
                         "castTime":"Instant",
                         "cooldown":"18 seconds",
@@ -296,7 +296,7 @@
                 {
                     "decapitate": {
                         "skillName":"Decapitate",
-                        "icon":"../public/Images/Champion/Decapitate.png",
+                        "icon":"public/Images/Champion/Decapitate.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"15 seconds",
@@ -307,7 +307,7 @@
                 {
                     "enduringWarcry": {
                         "skillName":"Enduring Warcry",
-                        "icon":"../public/Images/Champion/EnduringWarcry.png",
+                        "icon":"public/Images/Champion/EnduringWarcry.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"15 seconds",
@@ -318,7 +318,7 @@
                 {
                     "enrage": {
                         "skillName":"Enrage",
-                        "icon":"../public/Images/Champion/Enrage.png",
+                        "icon":"public/Images/Champion/Enrage.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"40 seconds",
@@ -329,7 +329,7 @@
                 {
                     "intimidation": {
                         "skillName":"Intimidation",
-                        "icon":"../public/Images/Champion/Intimidation.png",
+                        "icon":"public/Images/Champion/Intimidation.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -340,7 +340,7 @@
                 {
                     "lacerate": {
                         "skillName":"Lacerate",
-                        "icon":"../public/Images/Champion/Lacerate.png",
+                        "icon":"public/Images/Champion/Lacerate.png",
                         "cost":"35 Rage",
                         "castTime":"Instant",
                         "cooldown":"5 seconds",
@@ -351,7 +351,7 @@
                 {
                     "masterOfTheSword": {
                         "skillName":"Master Of The Sword",
-                        "icon":"../public/Images/Champion/MasterOfTheSword.png",
+                        "icon":"public/Images/Champion/MasterOfTheSword.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"12 seconds",
@@ -362,7 +362,7 @@
                 {
                     "resoundingWarcry": {
                         "skillName":"Resounding Warcry",
-                        "icon":"../public/Images/Champion/ResoundingWarcry.png",
+                        "icon":"public/Images/Champion/ResoundingWarcry.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"45 seconds",
@@ -373,7 +373,7 @@
                 {
                     "slashingStrike": {
                         "skillName":"Slashing Strike",
-                        "icon":"../public/Images/Champion/SlashingStrike.png",
+                        "icon":"public/Images/Champion/SlashingStrike.png",
                         "cost":"30 Rage",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -384,7 +384,7 @@
                 {
                     "sprint": {
                         "skillName":"Sprint",
-                        "icon":"../public/Images/Champion/Sprint.png",
+                        "icon":"public/Images/Champion/Sprint.png",
                         "cost":"0 Rage",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -395,7 +395,7 @@
                 {
                     "whirlwind": {
                         "skillName":"Whirlwind",
-                        "icon":"../public/Images/Champion/Whirlwind.png",
+                        "icon":"public/Images/Champion/Whirlwind.png",
                         "cost":"50 Rage",
                         "castTime":"Instant",
                         "cooldown":"7 seconds",
@@ -408,12 +408,12 @@
         },
         {
             "class": "Elder",
-            "classLogo":"../public/Images/ClassLogos/Eldergif.gif",
+            "classLogo":"public/Images/ClassLogos/Eldergif.gif",
             "skills":[
                 {
                     "elderBasicAttack": {
                         "skillName":"Elder Basic Attack",
-                        "icon":"../public/Images/Elder/Elder.png",
+                        "icon":"public/Images/Elder/Elder.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -424,7 +424,7 @@
                 {
                     "corrosiveAsp": {
                         "skillName":"Corrosive Asp",
-                        "icon":"../public/Images/Elder/CorrosiveAsp.png",
+                        "icon":"public/Images/Elder/CorrosiveAsp.png",
                         "cost":"225 Mana",
                         "castTime":"1 second",
                         "cooldown":"10 seconds",
@@ -435,7 +435,7 @@
                 {
                     "graspingVines": {
                         "skillName":"Grasping Vines",
-                        "icon":"../public/Images/Elder/GraspingVines.png",
+                        "icon":"public/Images/Elder/GraspingVines.png",
                         "cost":"220 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"12 seconds",
@@ -446,7 +446,7 @@
                 {
                     "inspiration": {
                         "skillName":"Inspiration",
-                        "icon":"../public/Images/Elder/Inspiration.png",
+                        "icon":"public/Images/Elder/Inspiration.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"60 seconds",
@@ -457,7 +457,7 @@
                 {
                     "mendingSpirit": {
                         "skillName":"Mending Spirit",
-                        "icon":"../public/Images/Elder/MendingSpirit.png",
+                        "icon":"public/Images/Elder/MendingSpirit.png",
                         "cost":"230 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -468,7 +468,7 @@
                 {
                     "remedy": {
                         "skillName":"Remedy",
-                        "icon":"../public/Images/Elder/Remedy.png",
+                        "icon":"public/Images/Elder/Remedy.png",
                         "cost":"245 Mana",
                         "castTime":"Instant",
                         "cooldown":"15 seconds",
@@ -479,7 +479,7 @@
                 {
                     "revitalize": {
                         "skillName":"Revitalize",
-                        "icon":"../public/Images/Elder/Revitalize.png",
+                        "icon":"public/Images/Elder/Revitalize.png",
                         "cost":"380 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"0 seconds",
@@ -490,7 +490,7 @@
                 {
                     "ritual": {
                         "skillName":"Ritual",
-                        "icon":"../public/Images/Elder/Ritual.png",
+                        "icon":"public/Images/Elder/Ritual.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -501,7 +501,7 @@
                 {
                     "seedOfLife": {
                         "skillName":"Seed Of Life",
-                        "icon":"../public/Images/Elder/SeedOfLife.png",
+                        "icon":"public/Images/Elder/SeedOfLife.png",
                         "cost":"320 Mana",
                         "castTime":"Instant",
                         "cooldown":"12 seconds",
@@ -512,7 +512,7 @@
                 {
                     "serenity": {
                         "skillName":"Serenity",
-                        "icon":"../public/Images/Elder/Serenity.png",
+                        "icon":"public/Images/Elder/Serenity.png",
                         "cost":"350 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"0 seconds",
@@ -523,7 +523,7 @@
                 {
                     "soothe": {
                         "skillName":"Soothe",
-                        "icon":"../public/Images/Elder/Soothe.png",
+                        "icon":"public/Images/Elder/Soothe.png",
                         "cost":"280 Mana",
                         "castTime":"Instant",
                         "cooldown":"25 seconds",
@@ -534,7 +534,7 @@
                 {
                     "shapeshiftSpiritWolf": {
                         "skillName":"Shapeshift Spirit Wolf",
-                        "icon":"../public/Images/Elder/SpiritWolf.png",
+                        "icon":"public/Images/Elder/SpiritWolf.png",
                         "cost":"125 Mana",
                         "castTime":"Instant",
                         "cooldown":".5 seconds",
@@ -545,7 +545,7 @@
                 {
                     "shapeshiftBear": {
                         "skillName":"Shapeshift Bear",
-                        "icon":"../public/Images/Elder/Bear.png",
+                        "icon":"public/Images/Elder/Bear.png",
                         "cost":"350 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -556,7 +556,7 @@
                 {
                     "symbiosis": {
                         "skillName":"Symbiosis",
-                        "icon":"../public/Images/Elder/Symbiosis.png",
+                        "icon":"public/Images/Elder/Symbiosis.png",
                         "cost":"395 Mana",
                         "castTime":"Instant",
                         "cooldown":"6 seconds",
@@ -567,7 +567,7 @@
                 {
                     "toxicSpore": {
                         "skillName":"Toxic Spore",
-                        "icon":"../public/Images/Elder/ToxicSpore.png",
+                        "icon":"public/Images/Elder/ToxicSpore.png",
                         "cost":"200 Mana",
                         "castTime":"Instant",
                         "cooldown":"4 seconds",
@@ -578,7 +578,7 @@
                 {
                     "windstorm": {
                         "skillName":"Windstorm",
-                        "icon":"../public/Images/Elder/Windstorm.png",
+                        "icon":"public/Images/Elder/Windstorm.png",
                         "cost":"175 Mana",
                         "castTime":"1 second",
                         "cooldown":"16 seconds",
@@ -590,12 +590,12 @@
         },
         {
             "class": "Lich",
-            "classLogo":"../public/Images/ClassLogos/Lichgif.gif",
+            "classLogo":"public/Images/ClassLogos/Lichgif.gif",
             "skills":[
                 {
                     "lichBasicAttack": {
                         "skillName":"Lich Basic Attack",
-                        "icon":"../public/Images/Lich/Lich.png",
+                        "icon":"public/Images/Lich/Lich.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -606,7 +606,7 @@
                 {
                     "abyssalSpike": {
                         "skillName":"Abyssal Spike",
-                        "icon":"../public/Images/Lich/AbyssalSpike.png",
+                        "icon":"public/Images/Lich/AbyssalSpike.png",
                         "cost":"230 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -617,7 +617,7 @@
                 {
                     "acidRain": {
                         "skillName":"Acid Rain",
-                        "icon":"../public/Images/Lich/AcidRain.png",
+                        "icon":"public/Images/Lich/AcidRain.png",
                         "cost":"280 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"8 seconds",
@@ -628,7 +628,7 @@
                 {
                     "contagion": {
                         "skillName":"Contagion",
-                        "icon":"../public/Images/Lich/Contagion.png",
+                        "icon":"public/Images/Lich/Contagion.png",
                         "cost":"0 Mana",
                         "castTime":"Passive Aura",
                         "cooldown":"0 seconds",
@@ -639,7 +639,7 @@
                 {
                     "deathsGrasp": {
                         "skillName":"Deaths Grasp",
-                        "icon":"../public/Images/Lich/DeathsGrasp.png",
+                        "icon":"public/Images/Lich/DeathsGrasp.png",
                         "cost":"280 Mana",
                         "castTime":"Instant",
                         "cooldown":"18 seconds",
@@ -650,7 +650,7 @@
                 {
                     "depravity": {
                         "skillName":"Depravity",
-                        "icon":"../public/Images/Lich/Depravity.png",
+                        "icon":"public/Images/Lich/Depravity.png",
                         "cost":"230 Mana",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -661,7 +661,7 @@
                 {
                     "exhaustion": {
                         "skillName":"Exhaustion",
-                        "icon":"../public/Images/Lich/Exhaustion.png",
+                        "icon":"public/Images/Lich/Exhaustion.png",
                         "cost":"270 Mana",
                         "castTime":"Instant",
                         "cooldown":"8 seconds",
@@ -672,7 +672,7 @@
                 {
                     "miasma": {
                         "skillName":"Miasma",
-                        "icon":"../public/Images/Lich/Miasma.png",
+                        "icon":"public/Images/Lich/Miasma.png",
                         "cost":"260 Mana",
                         "castTime":"Instant",
                         "cooldown":"4 seconds",
@@ -683,7 +683,7 @@
                 {
                     "netherBolt": {
                         "skillName":"Nether Bolt",
-                        "icon":"../public/Images/Lich/Netherbolt.png",
+                        "icon":"public/Images/Lich/Netherbolt.png",
                         "cost":"250 Mana",
                         "castTime":"1.25 seconds",
                         "cooldown":"6 seconds",
@@ -694,7 +694,7 @@
                 {
                     "parasite": {
                         "skillName":"Parasite",
-                        "icon":"../public/Images/Lich/Parasite.png",
+                        "icon":"public/Images/Lich/Parasite.png",
                         "cost":"235 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"6 seconds",
@@ -705,7 +705,7 @@
                 {
                     "pestilence": {
                         "skillName":"Pestilence",
-                        "icon":"../public/Images/Lich/Pestilence.png",
+                        "icon":"public/Images/Lich/Pestilence.png",
                         "cost":"265 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"14 seconds",
@@ -716,7 +716,7 @@
                 {
                     "poisonNova": {
                         "skillName":"Poison Nova",
-                        "icon":"../public/Images/Lich/PoisonNova.png",
+                        "icon":"public/Images/Lich/PoisonNova.png",
                         "cost":"300 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -727,7 +727,7 @@
                 {
                     "poolOfSouls": {
                         "skillName":"Pool Of Souls",
-                        "icon":"../public/Images/Lich/PoolOfSouls.png",
+                        "icon":"public/Images/Lich/PoolOfSouls.png",
                         "cost":"300 Mana",
                         "castTime":"1 second",
                         "cooldown":"8 seconds",
@@ -738,7 +738,7 @@
                 {
                     "sacrificeSoul": {
                         "skillName":"Sacrifice Soul",
-                        "icon":"../public/Images/Lich/SacrificeSoul.png",
+                        "icon":"public/Images/Lich/SacrificeSoul.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -749,7 +749,7 @@
                 {
                     "shatterMagic": {
                         "skillName":"Shatter Magic",
-                        "icon":"../public/Images/Lich/ShatterMagic.png",
+                        "icon":"public/Images/Lich/ShatterMagic.png",
                         "cost":"230 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"18 seconds",
@@ -760,7 +760,7 @@
                 {
                     "terrify": {
                         "skillName":"Terrify",
-                        "icon":"../public/Images/Lich/Terrify.png",
+                        "icon":"public/Images/Lich/Terrify.png",
                         "cost":"190 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"7 seconds",
@@ -771,7 +771,7 @@
                 {
                     "torment": {
                         "skillName":"Torment",
-                        "icon":"../public/Images/Lich/Torment.png",
+                        "icon":"public/Images/Lich/Torment.png",
                         "cost":"180 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -782,7 +782,7 @@
                 {
                     "underworldArmor": {
                         "skillName":"Underworld Armor",
-                        "icon":"../public/Images/Lich/UnderworldArmor.png",
+                        "icon":"public/Images/Lich/UnderworldArmor.png",
                         "cost":"195 Mana",
                         "castTime":"Instant",
                         "cooldown":"5 seconds",
@@ -794,12 +794,12 @@
         },
         {
             "class": "Mystic",
-            "classLogo":"../public/Images/ClassLogos/Mysticgif.gif",
+            "classLogo":"public/Images/ClassLogos/Mysticgif.gif",
             "skills":[
                 {
                     "mysticBasicAttack": {
                         "skillName":"Mystic Basic Attack",
-                        "icon":"../public/Images/Mystic/Mystic.png",
+                        "icon":"public/Images/Mystic/Mystic.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -810,7 +810,7 @@
                 {
                     "aegis": {
                         "skillName":"Aegis",
-                        "icon":"../public/Images/Mystic/Aegis.png",
+                        "icon":"public/Images/Mystic/Aegis.png",
                         "cost":"260 Mana",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -821,7 +821,7 @@
                 {
                     "astralShock": {
                         "skillName":"Astral Shock",
-                        "icon":"../public/Images/Mystic/AstralShock.jpg",
+                        "icon":"public/Images/Mystic/AstralShock.jpg",
                         "cost":"225 Mana",
                         "castTime":"Instant",
                         "cooldown":"8 seconds",
@@ -832,7 +832,7 @@
                 {
                     "blackout": {
                         "skillName":"Blackout",
-                        "icon":"../public/Images/Mystic/Blackout.jpg",
+                        "icon":"public/Images/Mystic/Blackout.jpg",
                         "cost":"190 Mana",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -843,7 +843,7 @@
                 {
                     "blessingSunAndMoon": {
                         "skillName":"Blessing Sun And Moon",
-                        "icon":"../public/Images/Mystic/BlessingSunAndMoon.jpg",
+                        "icon":"public/Images/Mystic/BlessingSunAndMoon.jpg",
                         "cost":"225 Mana",
                         "castTime":"Instant",
                         "cooldown":"4 seconds",
@@ -854,7 +854,7 @@
                 {
                     "cleanse": {
                         "skillName":"Cleanse",
-                        "icon":"../public/Images/Mystic/Cleanse.jpg",
+                        "icon":"public/Images/Mystic/Cleanse.jpg",
                         "cost":"230 Mana",
                         "castTime":"Instant",
                         "cooldown":"7 seconds",
@@ -865,7 +865,7 @@
                 {
                     "disenchant": {
                         "skillName":"Disenchant",
-                        "icon":"../public/Images/Mystic/Disenchant.jpg",
+                        "icon":"public/Images/Mystic/Disenchant.jpg",
                         "cost":"380 Mana",
                         "castTime":".5 seconds",
                         "cooldown":"8 seconds",
@@ -876,7 +876,7 @@
                 {
                     "divination": {
                         "skillName":"Divination",
-                        "icon":"../public/Images/Mystic/Divination.jpg",
+                        "icon":"public/Images/Mystic/Divination.jpg",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -887,7 +887,7 @@
                 {
                     "dreamOfProsperity": {
                         "skillName":"Dream Of Prosperity",
-                        "icon":"../public/Images/Mystic/DreamOfProsperity.jpg",
+                        "icon":"public/Images/Mystic/DreamOfProsperity.jpg",
                         "cost":"300 Mana",
                         "castTime":"Instant",
                         "cooldown":"10 seconds",
@@ -898,7 +898,7 @@
                 {
                     "healingVision": {
                         "skillName":"Healing Vision",
-                        "icon":"../public/Images/Mystic/HealingVision.jpg",
+                        "icon":"public/Images/Mystic/HealingVision.jpg",
                         "cost":"295 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"0 seconds",
@@ -909,7 +909,7 @@
                 {
                     "lifeStream": {
                         "skillName":"Life Stream",
-                        "icon":"../public/Images/Mystic/LifeStream.jpg",
+                        "icon":"public/Images/Mystic/LifeStream.jpg",
                         "cost":"370 Mana",
                         "castTime":"Instant",
                         "cooldown":"30 seconds",
@@ -920,7 +920,7 @@
                 {
                     "manaTap": {
                         "skillName":"Mana Tap",
-                        "icon":"../public/Images/Mystic/ManaTap.jpg",
+                        "icon":"public/Images/Mystic/ManaTap.jpg",
                         "cost":"180 Mana",
                         "castTime":"Instant",
                         "cooldown":"1 second",
@@ -931,7 +931,7 @@
                 {
                     "spiritForm": {
                         "skillName":"Spirit Form",
-                        "icon":"../public/Images/Mystic/SpiritForm.jpg",
+                        "icon":"public/Images/Mystic/SpiritForm.jpg",
                         "cost":"245 Mana",
                         "castTime":"Instant",
                         "cooldown":"45 seconds",
@@ -942,7 +942,7 @@
                 {
                     "temporalBarrier": {
                         "skillName":"Temporal Barrier",
-                        "icon":"../public/Images/Mystic/TemporalBarrier.jpg",
+                        "icon":"public/Images/Mystic/TemporalBarrier.jpg",
                         "cost":"270 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -954,12 +954,12 @@
         },
         {
             "class": "Nihilist",
-            "classLogo":"../public/Images/ClassLogos/Nihilistgif.gif",
+            "classLogo":"public/Images/ClassLogos/Nihilistgif.gif",
             "skills":[
                 {
                     "nihilistBasicAttack": {
                         "skillName":"Nihilist Basic Attack",
-                        "icon":"../public/Images/Nihilist/Nihilist.png",
+                        "icon":"public/Images/Nihilist/Nihilist.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -970,7 +970,7 @@
                 {
                     "amalgamation": {
                         "skillName":"Amalgamation",
-                        "icon":"../public/Images/Nihilist/Amalgamation.png",
+                        "icon":"public/Images/Nihilist/Amalgamation.png",
                         "cost":"0 Mana",
                         "castTime":"Passive Aura",
                         "cooldown":"n/a",
@@ -981,7 +981,7 @@
                 {
                     "blink": {
                         "skillName":"Blink",
-                        "icon":"../public/Images/Nihilist/Blink.jpg",
+                        "icon":"public/Images/Nihilist/Blink.jpg",
                         "cost":"200 Mana",
                         "castTime":"Instant",
                         "cooldown":"5 seconds",
@@ -992,7 +992,7 @@
                 {
                     "chaosWave": {
                         "skillName":"Chaos Wave",
-                        "icon":"../public/Images/Nihilist/ChaosWave.png",
+                        "icon":"public/Images/Nihilist/ChaosWave.png",
                         "cost":"250 Mana",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -1003,7 +1003,7 @@
                 {
                     "infuse": {
                         "skillName":"Infuse",
-                        "icon":"../public/Images/Nihilist/Infuse.png",
+                        "icon":"public/Images/Nihilist/Infuse.png",
                         "cost":"275 Mana",
                         "castTime":"Instant",
                         "cooldown":"3 seconds",
@@ -1014,7 +1014,7 @@
                 {
                     "karma": {
                         "skillName":"Karma",
-                        "icon":"../public/Images/Nihilist/Karma.png",
+                        "icon":"public/Images/Nihilist/Karma.png",
                         "cost":"240 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -1025,7 +1025,7 @@
                 {
                     "lingeringDemise": {
                         "skillName":"Lingering Demise",
-                        "icon":"../public/Images/Nihilist/LingeringDemise.png",
+                        "icon":"public/Images/Nihilist/LingeringDemise.png",
                         "cost":"295 Mana",
                         "castTime":"1 second",
                         "cooldown":"10 seconds",
@@ -1036,7 +1036,7 @@
                 {
                     "mindLeech": {
                         "skillName":"Mind Leech",
-                        "icon":"../public/Images/Nihilist/MindLeech.png",
+                        "icon":"public/Images/Nihilist/MindLeech.png",
                         "cost":"235 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"0 seconds",
@@ -1047,7 +1047,7 @@
                 {
                     "orbOfAbsolution": {
                         "skillName":"Orb Of Absolution",
-                        "icon":"../public/Images/Nihilist/OrbOfAbsolution.png",
+                        "icon":"public/Images/Nihilist/OrbOfAbsolution.png",
                         "cost":"100 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -1058,7 +1058,7 @@
                 {
                     "orbOfReplenishment": {
                         "skillName":"Orb Of Replenishment",
-                        "icon":"../public/Images/Nihilist/OrbOfReplenishment.png",
+                        "icon":"public/Images/Nihilist/OrbOfReplenishment.png",
                         "cost":"125 Mana",
                         "castTime":"Instant",
                         "cooldown":"8 seconds",
@@ -1069,7 +1069,7 @@
                 {
                     "orbOfSmoke": {
                         "skillName":"Orb Of Smoke",
-                        "icon":"../public/Images/Nihilist/OrbOfSmoke.png",
+                        "icon":"public/Images/Nihilist/OrbOfSmoke.png",
                         "cost":"100 Mana",
                         "castTime":"Instant",
                         "cooldown":"8 seconds",
@@ -1080,7 +1080,7 @@
                 {
                     "orbOfWisdom": {
                         "skillName":"Orb Of Wisdom",
-                        "icon":"../public/Images/Nihilist/OrbOfWisdom.png",
+                        "icon":"public/Images/Nihilist/OrbOfWisdom.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -1091,7 +1091,7 @@
                 {
                     "rockslide": {
                         "skillName":"Rockslide",
-                        "icon":"../public/Images/Nihilist/Rockslide.png",
+                        "icon":"public/Images/Nihilist/Rockslide.png",
                         "cost":"270 Mana",
                         "castTime":".5 secibds",
                         "cooldown":"14 seconds",
@@ -1102,7 +1102,7 @@
                 {
                     "shadowAffinity": {
                         "skillName":"Shadow Affinity",
-                        "icon":"../public/Images/Nihilist/ShadowAffinity.png",
+                        "icon":"public/Images/Nihilist/ShadowAffinity.png",
                         "cost":"300 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"0 seconds",
@@ -1113,7 +1113,7 @@
                 {
                     "siphonMana": {
                         "skillName":"Siphon Mana",
-                        "icon":"../public/Images/Nihilist/SiphonMana.png",
+                        "icon":"public/Images/Nihilist/SiphonMana.png",
                         "cost":"240 Mana",
                         "castTime":"Instant",
                         "cooldown":"12 seconds",
@@ -1124,7 +1124,7 @@
                 {
                     "spellBreaker": {
                         "skillName":"Spell Breaker",
-                        "icon":"../public/Images/Nihilist/SpellBreaker.png",
+                        "icon":"public/Images/Nihilist/SpellBreaker.png",
                         "cost":"315 Mana",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -1136,12 +1136,12 @@
         },
         {
             "class": "Paladin",
-            "classLogo":"../public/Images/ClassLogos/Paladingif.gif",
+            "classLogo":"public/Images/ClassLogos/Paladingif.gif",
             "skills":[
                 {
                     "paladinBasicAttack": {
                         "skillName":"Paladin Basic Attack",
-                        "icon":"../public/Images/Paladin/Paladin.png",
+                        "icon":"public/Images/Paladin/Paladin.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -1152,7 +1152,7 @@
                 {
                     "angelicStrike": {
                         "skillName":"Angelic Strike",
-                        "icon":"../public/Images/Paladin/AngelicStrike.png",
+                        "icon":"public/Images/Paladin/AngelicStrike.png",
                         "cost":"235 Mana",
                         "castTime":"Instant",
                         "cooldown":"4 seconds",
@@ -1163,7 +1163,7 @@
                 {
                     "blazingSlash": {
                         "skillName":"Blazing Slash",
-                        "icon":"../public/Images/Paladin/BlazingSlash.png",
+                        "icon":"public/Images/Paladin/BlazingSlash.png",
                         "cost":"240 Mana",
                         "castTime":"Instant",
                         "cooldown":"4 seconds",
@@ -1174,7 +1174,7 @@
                 {
                     "divineLight": {
                         "skillName":"Divine Light",
-                        "icon":"../public/Images/Paladin/DivineLight.png",
+                        "icon":"public/Images/Paladin/DivineLight.png",
                         "cost":"320 Mana",
                         "castTime":"1 second",
                         "cooldown":"0 seconds",
@@ -1185,7 +1185,7 @@
                 {
                     "heavensStrike": {
                         "skillName":"Heavens Strike",
-                        "icon":"../public/Images/Paladin/HeavensStrike.png",
+                        "icon":"public/Images/Paladin/HeavensStrike.png",
                         "cost":"285 Mana",
                         "castTime":"Instant",
                         "cooldown":"24 seconds",
@@ -1196,7 +1196,7 @@
                 {
                     "holyNova": {
                         "skillName":"Holy Nova",
-                        "icon":"../public/Images/Paladin/HolyNova.png",
+                        "icon":"public/Images/Paladin/HolyNova.png",
                         "cost":"450 Mana",
                         "castTime":"1 second",
                         "cooldown":"45 seconds",
@@ -1207,7 +1207,7 @@
                 {
                     "immortality": {
                         "skillName":"Immortality",
-                        "icon":"../public/Images/Paladin/Immortality.png",
+                        "icon":"public/Images/Paladin/Immortality.png",
                         "cost":"250 Mana",
                         "castTime":"Instant",
                         "cooldown":"60 seconds",
@@ -1218,7 +1218,7 @@
                 {
                     "prudence": {
                         "skillName":"Prudence",
-                        "icon":"../public/Images/Paladin/Prudence.png",
+                        "icon":"public/Images/Paladin/Prudence.png",
                         "cost":"60 Mana",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -1229,7 +1229,7 @@
                 {
                     "purify": {
                         "skillName":"Purify",
-                        "icon":"../public/Images/Paladin/Purify.png",
+                        "icon":"public/Images/Paladin/Purify.png",
                         "cost":"180 Mana",
                         "castTime":"Instant",
                         "cooldown":"6 seconds",
@@ -1240,7 +1240,7 @@
                 {
                     "sanctuary": {
                         "skillName":"Sanctuary",
-                        "icon":"../public/Images/Paladin/Sanctuary.png",
+                        "icon":"public/Images/Paladin/Sanctuary.png",
                         "cost":"n/a",
                         "castTime":"Passive Aura",
                         "cooldown":"n/a",
@@ -1251,7 +1251,7 @@
                 {
                     "sealOfTheCrusader": {
                         "skillName":"Seal Of The Crusader",
-                        "icon":"../public/Images/Paladin/SealOfTheCrusader.png",
+                        "icon":"public/Images/Paladin/SealOfTheCrusader.png",
                         "cost":"300 Mana",
                         "castTime":"Instant",
                         "cooldown":"60 seconds",
@@ -1262,7 +1262,7 @@
                 {
                     "sealOfTheHeavens": {
                         "skillName":"Seal Of The Heavens",
-                        "icon":"../public/Images/Paladin/SealOfTheHeavens.png",
+                        "icon":"public/Images/Paladin/SealOfTheHeavens.png",
                         "cost":"300 Mana",
                         "castTime":"Instant",
                         "cooldown":"60 seconds",
@@ -1273,7 +1273,7 @@
                 {
                     "sear": {
                         "skillName":"Sear",
-                        "icon":"../public/Images/Paladin/Sear.jpg",
+                        "icon":"public/Images/Paladin/Sear.jpg",
                         "cost":"270 Mana",
                         "castTime":"Instant",
                         "cooldown":"7 seconds",
@@ -1284,7 +1284,7 @@
                 {
                     "shatteringSlash": {
                         "skillName":"Shattering Slash",
-                        "icon":"../public/Images/Paladin/ShatteringSlash.png",
+                        "icon":"public/Images/Paladin/ShatteringSlash.png",
                         "cost":"230 Mana",
                         "castTime":"Instant",
                         "cooldown":"7 seconds",
@@ -1295,7 +1295,7 @@
                 {
                     "streamofLight": {
                         "skillName":"Stream Of Light",
-                        "icon":"../public/Images/Paladin/StreamOfLight.png",
+                        "icon":"public/Images/Paladin/StreamOfLight.png",
                         "cost":"210 Mana",
                         "castTime":"Instant",
                         "cooldown":"4 seconds",
@@ -1306,7 +1306,7 @@
                 {
                     "valor": {
                         "skillName":"Valor",
-                        "icon":"../public/Images/Paladin/Valor.png",
+                        "icon":"public/Images/Paladin/Valor.png",
                         "cost":"190 Mana",
                         "castTime":"Instant",
                         "cooldown":"40 seconds",
@@ -1317,7 +1317,7 @@
                 {
                     "wrathOfHeaven": {
                         "skillName":"Wrath Of Heaven",
-                        "icon":"../public/Images/Paladin/WrathOfHeaven.png",
+                        "icon":"public/Images/Paladin/WrathOfHeaven.png",
                         "cost":"245 Mana",
                         "castTime":"1.25 seconds",
                         "cooldown":"15 seconds",
@@ -1329,12 +1329,12 @@
         },
         {
             "class": "Ranger",
-            "classLogo":"../public/Images/ClassLogos/Rangergif.gif",
+            "classLogo":"public/Images/ClassLogos/Rangergif.gif",
             "skills":[
                 {
                     "rangerBasicAttack": {
                         "skillName":"Ranger Basic Attack",
-                        "icon":"../public/Images/Ranger/Ranger.png",
+                        "icon":"public/Images/Ranger/Ranger.png",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -1345,7 +1345,7 @@
                 {
                     "aetherShot": {
                         "skillName":"Aether Shot",
-                        "icon":"../public/Images/Ranger/AetherShot.jpg",
+                        "icon":"public/Images/Ranger/AetherShot.jpg",
                         "cost":"40 Energy",
                         "castTime":".75 seconds",
                         "cooldown":"10 seconds",
@@ -1356,7 +1356,7 @@
                 {
                     "elementalArrow": {
                         "skillName":"Elemental Arrow",
-                        "icon":"../public/Images/Ranger/ElementalArrow.jpg",
+                        "icon":"public/Images/Ranger/ElementalArrow.jpg",
                         "cost":"50 Energy",
                         "castTime":"Instant",
                         "cooldown":"8 seconds",
@@ -1367,7 +1367,7 @@
                 {
                     "headShot": {
                         "skillName":"Head Shot",
-                        "icon":"../public/Images/Ranger/HeadShot.jpg",
+                        "icon":"public/Images/Ranger/HeadShot.jpg",
                         "cost":"65 Energy",
                         "castTime":"1 second",
                         "cooldown":"11 seconds",
@@ -1378,7 +1378,7 @@
                 {
                     "lightningArrow": {
                         "skillName":"Lightning Arrow",
-                        "icon":"../public/Images/Ranger/LightningArrow.png",
+                        "icon":"public/Images/Ranger/LightningArrow.png",
                         "cost":"60 Energy",
                         "castTime":"Instant",
                         "cooldown":"12 seconds",
@@ -1389,7 +1389,7 @@
                 {
                     "markOfDeath": {
                         "skillName":"Mark Of Death",
-                        "icon":"../public/Images/Ranger/MarkOfDeath.png",
+                        "icon":"public/Images/Ranger/MarkOfDeath.png",
                         "cost":"n/a",
                         "castTime":"Passive Aura",
                         "cooldown":"n/a",
@@ -1400,7 +1400,7 @@
                 {
                     "nightmareShot": {
                         "skillName":"Nightmare Shot",
-                        "icon":"../public/Images/Ranger/NightmareShot.png",
+                        "icon":"public/Images/Ranger/NightmareShot.png",
                         "cost":"40 Energy",
                         "castTime":"Instant",
                         "cooldown":"22 seconds",
@@ -1411,7 +1411,7 @@
                 {
                     "poisonousShot": {
                         "skillName":"Poisonous Shot",
-                        "icon":"../public/Images/Ranger/PoisonousShot.jpg",
+                        "icon":"public/Images/Ranger/PoisonousShot.jpg",
                         "cost":"40 Energy",
                         "castTime":"Instant",
                         "cooldown":"7 seconds",
@@ -1422,7 +1422,7 @@
                 {
                     "quicksand": {
                         "skillName":"Quicksand",
-                        "icon":"../public/Images/Ranger/Quicksand.jpg",
+                        "icon":"public/Images/Ranger/Quicksand.jpg",
                         "cost":"50 Energy",
                         "castTime":"Instant",
                         "cooldown":"25 seconds",
@@ -1433,7 +1433,7 @@
                 {
                     "rainOfArrows": {
                         "skillName":"Rain Of Arrows",
-                        "icon":"../public/Images/Ranger/RainOfArrows.jpg",
+                        "icon":"public/Images/Ranger/RainOfArrows.jpg",
                         "cost":"60 Energy",
                         "castTime":"1 second",
                         "cooldown":"15 seconds",
@@ -1444,7 +1444,7 @@
                 {
                     "silencingShot": {
                         "skillName":"Silencing Shot",
-                        "icon":"../public/Images/Ranger/SilencingShot.jpg",
+                        "icon":"public/Images/Ranger/SilencingShot.jpg",
                         "cost":"30 Energy",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -1455,7 +1455,7 @@
                 {
                     "twistingShot": {
                         "skillName":"Twisting Shot",
-                        "icon":"../public/Images/Ranger/TwistingShot.jpg",
+                        "icon":"public/Images/Ranger/TwistingShot.jpg",
                         "cost":"35 Energy",
                         "castTime":".5 seconds",
                         "cooldown":"4 seconds",
@@ -1466,7 +1466,7 @@
                 {
                     "vigor": {
                         "skillName":"Vigor",
-                        "icon":"../public/Images/Ranger/Vigor.jpg",
+                        "icon":"public/Images/Ranger/Vigor.jpg",
                         "cost":"0 Energy",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -1478,12 +1478,12 @@
         },
         {
             "class": "Scholar",
-            "classLogo":"../public/Images/ClassLogos/Scholargif.gif",
+            "classLogo":"public/Images/ClassLogos/Scholargif.gif",
             "skills":[
                 {
                     "scholarBasicAttack": {
                         "skillName":"Scholar Basic Attack",
-                        "icon":"../public/Images/Scholar/Scholar.png",
+                        "icon":"public/Images/Scholar/Scholar.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -1494,7 +1494,7 @@
                 {
                     "armageddon": {
                         "skillName":"Armageddon",
-                        "icon":"../public/Images/Scholar/Armageddon.jpg",
+                        "icon":"public/Images/Scholar/Armageddon.jpg",
                         "cost":"315 Mana",
                         "castTime":"1.25 seconds",
                         "cooldown":"15 seconds",
@@ -1505,7 +1505,7 @@
                 {
                     "etherealBindings": {
                         "skillName":"Ethereal Bindings",
-                        "icon":"../public/Images/Scholar/EtherealBindings.jpg",
+                        "icon":"public/Images/Scholar/EtherealBindings.jpg",
                         "cost":"260 Mana",
                         "castTime":"Instant",
                         "cooldown":"15 seconds",
@@ -1516,7 +1516,7 @@
                 {
                     "gospelOfDefiance": {
                         "skillName":"Gospel Of Defiance",
-                        "icon":"../public/Images/Scholar/GospelOfDefiance.jpg",
+                        "icon":"public/Images/Scholar/GospelOfDefiance.jpg",
                         "cost":"330 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -1527,7 +1527,7 @@
                 {
                     "gospelOfHarmony": {
                         "skillName":"Gospel Of Harmony",
-                        "icon":"../public/Images/Scholar/GospelOfHarmony.jpg",
+                        "icon":"public/Images/Scholar/GospelOfHarmony.jpg",
                         "cost":"370 Mana",
                         "castTime":"1.25 seconds",
                         "cooldown":"7 seconds",
@@ -1538,7 +1538,7 @@
                 {
                     "gospelOfOnslaught": {
                         "skillName":"Gospel Of Onslaught",
-                        "icon":"../public/Images/Scholar/GospelOfOnslaught.png",
+                        "icon":"public/Images/Scholar/GospelOfOnslaught.png",
                         "cost":"185 Mana",
                         "castTime":"Instant",
                         "cooldown":"60 seconds",
@@ -1549,7 +1549,7 @@
                 {
                     "gospelOfPurity": {
                         "skillName":"Gospel Of Purity",
-                        "icon":"../public/Images/Scholar/GospelOfPurity.png",
+                        "icon":"public/Images/Scholar/GospelOfPurity.png",
                         "cost":"345 Mana",
                         "castTime":"Instant",
                         "cooldown":"12 seconds",
@@ -1560,7 +1560,7 @@
                 {
                     "immortality": {
                         "skillName":"Immortality",
-                        "icon":"../public/Images/Scholar/Immortality.png",
+                        "icon":"public/Images/Scholar/Immortality.png",
                         "cost":"250 Mana",
                         "castTime":"Instant",
                         "cooldown":"60 seconds",
@@ -1571,7 +1571,7 @@
                 {
                     "judgement": {
                         "skillName":"Judgement",
-                        "icon":"../public/Images/Scholar/Judgement.jpg",
+                        "icon":"public/Images/Scholar/Judgement.jpg",
                         "cost":"230 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -1582,7 +1582,7 @@
                 {
                     "lifeBurst": {
                         "skillName":"Life Burst",
-                        "icon":"../public/Images/Scholar/LifeBurst.jpg",
+                        "icon":"public/Images/Scholar/LifeBurst.jpg",
                         "cost":"265 Mana",
                         "castTime":"Instant",
                         "cooldown":"4 seconds",
@@ -1593,7 +1593,7 @@
                 {
                     "mesmerize": {
                         "skillName":"Mesmerize",
-                        "icon":"../public/Images/Scholar/Mesmerize.jpg",
+                        "icon":"public/Images/Scholar/Mesmerize.jpg",
                         "cost":"180 Mana",
                         "castTime":"Instant",
                         "cooldown":"16 seconds",
@@ -1604,7 +1604,7 @@
                 {
                     "portal": {
                         "skillName":"Portal",
-                        "icon":"../public/Images/Scholar/Portal.jpg",
+                        "icon":"public/Images/Scholar/Portal.jpg",
                         "cost":"300 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -1615,7 +1615,7 @@
                 {
                     "riteOfPassage": {
                         "skillName":"Rite Of Passage",
-                        "icon":"../public/Images/Scholar/RiteOfPassage.jpg",
+                        "icon":"public/Images/Scholar/RiteOfPassage.jpg",
                         "cost":"135 Mana",
                         "castTime":"Instant",
                         "cooldown":"20 seconds",
@@ -1626,7 +1626,7 @@
                 {
                     "silence": {
                         "skillName":"Silence",
-                        "icon":"../public/Images/Scholar/Silence.jpg",
+                        "icon":"public/Images/Scholar/Silence.jpg",
                         "cost":"260 Mana",
                         "castTime":"Instant",
                         "cooldown":"30 seconds",
@@ -1637,7 +1637,7 @@
                 {
                     "transferLife": {
                         "skillName":"Transfer Life",
-                        "icon":"../public/Images/Scholar/TransferLife.jpg",
+                        "icon":"public/Images/Scholar/TransferLife.jpg",
                         "cost":"285 Mana",
                         "castTime":".5 seconds",
                         "cooldown":"0 seconds",
@@ -1648,7 +1648,7 @@
                 {
                     "truth": {
                         "skillName":"Truth",
-                        "icon":"../public/Images/Scholar/Truth.jpg",
+                        "icon":"public/Images/Scholar/Truth.jpg",
                         "cost":"n/a",
                         "castTime":"Passive Aura",
                         "cooldown":"n/a",
@@ -1660,12 +1660,12 @@
         },
         {
             "class": "Wizard",
-            "classLogo":"../public/Images/ClassLogos/Wizardgif.gif",
+            "classLogo":"public/Images/ClassLogos/Wizardgif.gif",
             "skills":[
                 {
                     "wizardBasicAttack": {
                         "skillName":"Wizard Basic Attack",
-                        "icon":"../public/Images/Wizard/Wizard.png",
+                        "icon":"public/Images/Wizard/Wizard.png",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"0 seconds",
@@ -1676,7 +1676,7 @@
                 {
                     "combust": {
                         "skillName":"Combust",
-                        "icon":"../public/Images/Wizard/Combust.jpg",
+                        "icon":"public/Images/Wizard/Combust.jpg",
                         "cost":"25  0 Mana",
                         "castTime":"Instant",
                         "cooldown":"9 seconds",
@@ -1687,7 +1687,7 @@
                 {
                     "counterspell": {
                         "skillName":"Counterspell",
-                        "icon":"../public/Images/Wizard/Counterspell.jpg",
+                        "icon":"public/Images/Wizard/Counterspell.jpg",
                         "cost":"210 Mana",
                         "castTime":"Instant",
                         "cooldown":"15 seconds",
@@ -1698,7 +1698,7 @@
                 {
                     "crystallize": {
                         "skillName":"Crystallize",
-                        "icon":"../public/Images/Wizard/Crystallize.png",
+                        "icon":"public/Images/Wizard/Crystallize.png",
                         "cost":"220 Mana",
                         "castTime":"Instant",
                         "cooldown":"40 seconds",
@@ -1709,7 +1709,7 @@
                 {
                     "eyeOfTheStorm": {
                         "skillName":"Eye Of The Storm",
-                        "icon":"../public/Images/Wizard/EyeOfTheStorm.png",
+                        "icon":"public/Images/Wizard/EyeOfTheStorm.png",
                         "cost":"300 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"11 seconds",
@@ -1720,7 +1720,7 @@
                 {
                     "fireball": {
                         "skillName":"Fireball",
-                        "icon":"../public/Images/Wizard/Fireball.jpg",
+                        "icon":"public/Images/Wizard/Fireball.jpg",
                         "cost":"260 Mana",
                         "castTime":"1.25 seconds",
                         "cooldown":"0 seconds",
@@ -1731,7 +1731,7 @@
                 {
                     "flashFreeze": {
                         "skillName":"Flash Freeze",
-                        "icon":"../public/Images/Wizard/FlashFreeze.jpg",
+                        "icon":"public/Images/Wizard/FlashFreeze.jpg",
                         "cost":"240 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -1742,7 +1742,7 @@
                 {
                     "frostbolt": {
                         "skillName":"Frostbolt",
-                        "icon":"../public/Images/Wizard/Frostbolt.jpg",
+                        "icon":"public/Images/Wizard/Frostbolt.jpg",
                         "cost":"225 Mana",
                         "castTime":"1 second",
                         "cooldown":"0 seconds",
@@ -1753,7 +1753,7 @@
                 {
                     "geyser": {
                         "skillName":"Geyser",
-                        "icon":"../public/Images/Wizard/Geyser.jpg",
+                        "icon":"public/Images/Wizard/Geyser.jpg",
                         "cost":"240 Mana",
                         "castTime":".5 seconds  ",
                         "cooldown":"12 seconds",
@@ -1775,7 +1775,7 @@
                 {
                     "lightningStrike": {
                         "skillName":"Lightning Strike",
-                        "icon":"../public/Images/Wizard/LightningStrike.jpg",
+                        "icon":"public/Images/Wizard/LightningStrike.jpg",
                         "cost":"220 Mana",
                         "castTime":"Instant",
                         "cooldown":"7 seconds",
@@ -1786,7 +1786,7 @@
                 {
                     "magicMissiles": {
                         "skillName":"Magic Missiles",
-                        "icon":"../public/Images/Wizard/MagicMissiles.png",
+                        "icon":"public/Images/Wizard/MagicMissiles.png",
                         "cost":"225 Mana",
                         "castTime":"Instant",
                         "cooldown":"3 seconds",
@@ -1797,7 +1797,7 @@
                 {
                     "masterOfMagic": {
                         "skillName":"Master Of Magic",
-                        "icon":"../public/Images/Wizard/MasterOfMagic.jpg",
+                        "icon":"public/Images/Wizard/MasterOfMagic.jpg",
                         "cost":"0 Mana",
                         "castTime":"Instant",
                         "cooldown":"15 seconds",
@@ -1808,7 +1808,7 @@
                 {
                     "meteor": {
                         "skillName":"Meteor",
-                        "icon":"../public/Images/Wizard/Meteor.jpg",
+                        "icon":"public/Images/Wizard/Meteor.jpg",
                         "cost":"300 Mana",
                         "castTime":"Instant",
                         "cooldown":"22 seconds",
@@ -1819,7 +1819,7 @@
                 {
                     "runicShield": {
                         "skillName":"Runic Shield",
-                        "icon":"../public/Images/Wizard/RunicShield.jpg",
+                        "icon":"public/Images/Wizard/RunicShield.jpg",
                         "cost":"115 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -1830,7 +1830,7 @@
                 {
                     "sheepify": {
                         "skillName":"Sheepify",
-                        "icon":"../public/Images/Wizard/Sheepify.png",
+                        "icon":"public/Images/Wizard/Sheepify.png",
                         "cost":"210 Mana",
                         "castTime":"1 second",
                         "cooldown":"14 seconds",
@@ -1841,7 +1841,7 @@
                 {
                     "shockNova": {
                         "skillName":"Shock Nova",
-                        "icon":"../public/Images/Wizard/ShockNova.png",
+                        "icon":"public/Images/Wizard/ShockNova.png",
                         "cost":"350 Mana",
                         "castTime":"Instant",
                         "cooldown":"2 seconds",
@@ -1852,7 +1852,7 @@
                 {
                     "teleport": {
                         "skillName":"Teleport",
-                        "icon":"../public/Images/Wizard/Teleport.jpg",
+                        "icon":"public/Images/Wizard/Teleport.jpg",
                         "cost":"125 Mana",
                         "castTime":"Instant",
                         "cooldown":"14 seconds",
@@ -1863,7 +1863,7 @@
                 {
                     "thundersWrath": {
                         "skillName":"Thunders Wrath",
-                        "icon":"../public/Images/Wizard/ThundersWrath.jpg",
+                        "icon":"public/Images/Wizard/ThundersWrath.jpg",
                         "cost":"210 Mana",
                         "castTime":"Instant",
                         "cooldown":"8 seconds",
@@ -1874,7 +1874,7 @@
                 {
                     "volcanicEruption": {
                         "skillName":"Volcanic Eruption",
-                        "icon":"../public/Images/Wizard/VolcanicEruption.jpg",
+                        "icon":"public/Images/Wizard/VolcanicEruption.jpg",
                         "cost":"240 Mana",
                         "castTime":".75 seconds",
                         "cooldown":"16 seconds",
