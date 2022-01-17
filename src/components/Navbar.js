@@ -1,9 +1,46 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
+
+const style = {
+    width: "60%",
+    margin: "5% 0 1%",
+    padding: "1em",
+    textDecoration: "none",
+    color: "black",
+    fontweight: "bold",
+    verticalAlign: "center"
+}
 
 export const Navbar = () => {
     return (
         <div>
-            
+            <NavLink
+            activeStyle={{
+                fontWeight: "bolder",
+                color: "red"
+            }}
+                exact style = {style}
+                to ="/">
+                Home
+            </NavLink>
+            <NavLink
+            activeStyle={{
+                fontWeight: "bolder",
+                color: "red"
+            }}
+                exact style = {style}
+                to ="/characters">
+                Characters
+            </NavLink>
+            <NavLink
+            activeStyle={{
+                fontWeight: "bolder",
+                color: "red"
+            }}
+                exact style = {style}
+                to ="/characters/new">
+                New Character
+            </NavLink>
         </div>
     )
 }

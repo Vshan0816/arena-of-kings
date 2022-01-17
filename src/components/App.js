@@ -23,7 +23,7 @@ function App() {
             <ClassCard />
           </Route>
 
-          <Route path ="/characters/">
+          <Route path ="/characters">
             <ClassList />
           </Route>
 
