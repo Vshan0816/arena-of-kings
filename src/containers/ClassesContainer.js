@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import { ClassList } from '../components/ClassList'
 
-export const ClassContainer = () => {
+export const ClassesContainer = () => {
     
     const [classes, setClasses] = useState([])
     const fetchData = () => {
@@ -16,7 +16,7 @@ export const ClassContainer = () => {
     }, [])
     return (
         <div>
-            <ClassList />
+            <ClassList classes={classes}/>
         </div>
     )
 }

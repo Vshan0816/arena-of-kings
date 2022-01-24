@@ -42,6 +42,7 @@
     ],
     "classes":[
         {
+            "id":1,
             "class": "Assassin",
             "classLogo":"public/Images/ClassLogos/Assassingif.gif",
             "skills":[
@@ -224,6 +225,7 @@
             ]
         },
         {
+            "id":2,
             "class": "Champion",
             "classLogo":"public/Images/ClassLogos/Championgif.gif",
             "skills":[
@@ -407,6 +409,7 @@
             ]
         },
         {
+            "id":3,
             "class": "Elder",
             "classLogo":"public/Images/ClassLogos/Eldergif.gif",
             "skills":[
@@ -588,7 +591,8 @@
                 }
             ]
         },
-        {
+        {   
+            "id":4,
             "class": "Lich",
             "classLogo":"public/Images/ClassLogos/Lichgif.gif",
             "skills":[
@@ -792,7 +796,8 @@
                 }
             ]
         },
-        {
+        {   
+            "id":5,
             "class": "Mystic",
             "classLogo":"public/Images/ClassLogos/Mysticgif.gif",
             "skills":[
@@ -953,6 +958,7 @@
             ]
         },
         {
+            "id":6,
             "class": "Nihilist",
             "classLogo":"public/Images/ClassLogos/Nihilistgif.gif",
             "skills":[
@@ -1134,7 +1140,8 @@
                 }
             ]
         },
-        {
+        {   
+            "id":7,
             "class": "Paladin",
             "classLogo":"public/Images/ClassLogos/Paladingif.gif",
             "skills":[
@@ -1327,7 +1334,8 @@
                 }
             ]
         },
-        {
+        {   
+            "id": 8,
             "class": "Ranger",
             "classLogo":"public/Images/ClassLogos/Rangergif.gif",
             "skills":[
@@ -1476,7 +1484,8 @@
                 }
             ]
         },
-        {
+        {   
+            "id":9,
             "class": "Scholar",
             "classLogo":"public/Images/ClassLogos/Scholargif.gif",
             "skills":[
@@ -1659,6 +1668,7 @@
             ]
         },
         {
+            "id":10,
             "class": "Wizard",
             "classLogo":"public/Images/ClassLogos/Wizardgif.gif",
             "skills":[
