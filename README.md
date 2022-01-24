@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Arena of Kings app
+
+## Description
+
+This Project centers around a pc game called arena of kings. The intention of this app is an attempt to act as a database of the game to provide information about the game while in a browser. The images and information about the game were taken from https://arenaofkings.fandom.com/wiki/Arena_of_Kings_Wiki. 
+
+## Installation
+
+1. Fork and clone the repo
+2. Cd into the project and run npm install
+3. Run the json-server with: npm run server
+4. Run the React server with: npm start
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +81,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
