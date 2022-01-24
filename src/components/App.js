@@ -6,7 +6,7 @@ import {Header} from './Header'
 import {CharacterForm} from './CharacterForm'
 import {ClassCard} from './ClassCard'
 import {Home} from './Home'
-import {CharactersContainer} from '../containers/CharactersContainer'
+import {ClassContainer} from '../containers/ClassContainer'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           </Route>
 
           <Route path ="/characters">
-            <CharactersContainer />
+            <ClassContainer />
           </Route>
 
           <Route path ="/">
