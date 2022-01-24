@@ -6,7 +6,10 @@ export const ClassList = ({classes}) => {
     })
     return (
         <div>
-            {ClassesCard}
+            <h2>Classes</h2>
+            <div style ={{display: "flex", flexWrap: "wrap"}}> 
+                {ClassesCard}
+            </div>
         </div>
     )
 }

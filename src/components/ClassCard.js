@@ -1,7 +1,7 @@
 
 export const ClassCard = ({classs}) => {
     return (
-        <div>
+        <div style={{border:"solid", width: "17%", height:"300px", margin:"auto"}}>
             <h3>{classs.class}</h3>
             <img src={classs.classLogo} alt={classs.class}/>
             
