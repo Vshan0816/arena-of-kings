@@ -5,8 +5,8 @@ import {Navbar} from './Navbar'
 import {Header} from './Header'
 import {CharacterForm} from './CharacterForm'
 import {ClassCard} from './ClassCard'
-import {ClassList} from './ClassList'
 import {Home} from './Home'
+import {CharactersContainer} from '../containers/CharactersContainer'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           </Route>
 
           <Route path ="/characters">
-            <ClassList />
+            <CharactersContainer />
           </Route>
 
           <Route path ="/">

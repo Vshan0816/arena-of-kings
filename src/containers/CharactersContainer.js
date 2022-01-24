@@ -1,9 +1,10 @@
 
 
-export const Header = () => {
+export const CharactersContainer = () => {
     return (
         <div>
             
         </div>
     )
 }
+   
