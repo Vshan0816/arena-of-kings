@@ -18,6 +18,7 @@ export const ClassesContainer = ({classes}) => {
     return (
         <div>
             <ClassList classes={classes}/>
+            
         </div>
     )
 }

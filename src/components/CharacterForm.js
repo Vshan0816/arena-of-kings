@@ -3,7 +3,8 @@ import {useHistory} from 'react-router-dom'
 
 export const CharacterForm = ({classes}) => {
     const [type, setType] = useState("")
-    const [filteredSkills, setFilteredSkills] = useState(classes)
+    const [filteredClass, setFilteredClass] = useState([])
+    const [filteredSkillList, setFilteredSkillList] = useState([])
     const handleSubmit = (e) => {
         e.preventDefault()
     }
@@ -16,12 +17,17 @@ export const CharacterForm = ({classes}) => {
     const handleSelect = (selectValue) => {
         console.log(selectValue)
         const filteredClasses = classes.filter(classs=> classs.class===selectValue)
-        setFilteredSkills(filteredClasses)
+        setFilteredClass((filteredClass) => filteredClass = filteredClasses)
         console.log(filteredClasses)
+        const filteredSkills = filteredClass[0].skills.map( skill => {
+            return console.log(skill)
+        
+        
+        })
         
 
     }
-    console.log(filteredSkills)
+    
     return (
         <form onSubmit={handleSubmit}>
             <h1>Create a Character</h1>
