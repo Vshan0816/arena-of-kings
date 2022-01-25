@@ -17,7 +17,7 @@ export const CharacterForm = ({classes}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        const newCharacter = {classType, name, skill1, skill2, skill3, skill4, skill5, skill6, skill7, skill8}
+        const newCharacter = {name, classType, skill1, skill2, skill3, skill4, skill5, skill6, skill7, skill8}
         fetch("http://localhost:3001/characters", {
             method: "POST",
             headers: {
@@ -29,13 +29,14 @@ export const CharacterForm = ({classes}) => {
     
 
     const handleSelect = (selectValue) => {
-        console.log(selectValue)
+        // console.log(selectValue)
         const filteredClasses = classes.filter(classs=> classs.class===selectValue)
-        setFilteredClass((filteredClass) => filteredClass = filteredClasses)
-        console.log(filteredClasses)
-        // const filteredSkills = filteredClass[0].skills.map( skill => {
-        //     return console.log(skill)
-        // })
+        setFilteredClass(filteredClasses)
+        // console.log(filteredClasses)
+        const filteredSkills = filteredClasses[0].skills.map( skill => {
+            return skill.skillName
+        })
+        setFilteredSkillList(filteredSkills)
         
 
     }
@@ -43,12 +44,20 @@ export const CharacterForm = ({classes}) => {
     return (
         <form onSubmit={handleSubmit}>
             <h1>Create a Character</h1>
+            <h3>Instructions:</h3>
+            <p>After selecting a class type, a list of class skills should appear</p>
+            <p>Please fill out the form with the exact names of the skills, including spaces.</p>
+            <p>Do not repeat the names of the same skill</p>
+            <label htmlFor="name">Name</label>
+            <input onChange={e => setName(e.target.value)} type="text" value={name} /><br />< br />
             <label htmlFor="class-select">Select a Class Type:</label>
             <select 
                 name="classes"
                 id="class-select"
                 onChange={e => {
-                    handleSelect(e.target.value)}}>
+                    handleSelect(e.target.value)
+                    setClassType(e.target.value)
+                }}>
                 <option value="">Please Select a Class</option>
                 <option value="Assassin">Assassin</option>
                 <option value="Champion">Champion</option>
@@ -61,8 +70,12 @@ export const CharacterForm = ({classes}) => {
                 <option value="Scholar">Scholar</option>
                 <option value="Wizard">Wizard</option>
             </select><br />< br />
-            <label htmlFor="name">Name</label>
-            <input onChange={e => setName(e.target.value)} type="text" value={name} /><br />< br />
+
+            {filteredSkillList.map(skillName =>{
+                return <p>{`${skillName}`}</p>
+            })}
+            {/* <label htmlFor="name">Name</label>
+            <input onChange={e => setName(e.target.value)} type="text" value={name} /><br />< br /> */}
             <label htmlFor="skill1">Choose First Skill</label>
             <input onChange={e => setSkill1(e.target.value)} type="text" value={skill1} /><br />< br />
             <label htmlFor="skill2">Choose Second Skill</label>

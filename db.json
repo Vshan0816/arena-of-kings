@@ -1,43 +1,17 @@
 {
   "characters": [
-    {
-      "name": "default",
-      "id": 1,
-      "class": "",
-      "skill1": "",
-      "skill2": "",
-      "skill3": "",
-      "skill4": "",
-      "skill5": "",
-      "skill6": "",
-      "skill7": "",
-      "skill8": ""
-    },
-    {
-      "name": "default",
-      "id": 2,
-      "class": "",
-      "skill1": "",
-      "skill2": "",
-      "skill3": "",
-      "skill4": "",
-      "skill5": "",
-      "skill6": "",
-      "skill7": "",
-      "skill8": ""
-    },
-    {
-      "name": "default",
-      "id": 3,
-      "class": "",
-      "skill1": "",
-      "skill2": "",
-      "skill3": "",
-      "skill4": "",
-      "skill5": "",
-      "skill6": "",
-      "skill7": "",
-      "skill8": ""
+   {
+      "name": "Example Character",
+      "classType": "Assassin",
+      "skill1": "Annihilate",
+      "skill2": "Bandage",
+      "skill3": "Dash",
+      "skill4": "Daze",
+      "skill5": "Disappearing Act",
+      "skill6": "Envenom",
+      "skill7": "Murderous Instincts",
+      "skill8": "Puncture",
+      "id": 1
     }
   ],
   "classes": [
