@@ -41,6 +41,15 @@ export const Navbar = () => {
                 to ="/characters/new">
                 New Character
             </NavLink>
+            <NavLink
+            activeStyle={{
+                fontWeight: "bolder",
+                color: "red"
+            }}
+                exact style = {style}
+                to ="/characters/list">
+                Your Characters
+            </NavLink>
         </div>
     )
 }

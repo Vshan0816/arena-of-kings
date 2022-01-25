@@ -9,9 +9,11 @@ export const CharacterForm = () => {
     return (
         <form onSubmit={handleSubmit}>
             <h1>Create a Character</h1>
-            <label for="class-select">Select a Class:</label>
-            <select name="classes" id="class-select">
-            <input onChange={e => setType(e.target.value)}/>
+            <label htmlFor="class-select">Select a Class Type:</label>
+            <select 
+                name="classes"
+                id="class-select"
+                onChange={e => setType(e.target.value)}>
                 <option value="">Please Select a Class</option>
                 <option value="assassin">Assassin</option>
                 <option value="champion">Champion</option>
@@ -24,6 +26,7 @@ export const CharacterForm = () => {
                 <option value="scholar">Scholar</option>
                 <option value="wizard">Wizard</option>
             </select>
+            {console.log(type)}
         </form>
     )
 }
