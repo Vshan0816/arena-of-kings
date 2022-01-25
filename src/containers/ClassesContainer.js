@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import { ClassList } from '../components/ClassList'
 
+
 export const ClassesContainer = () => {
     
     const [classes, setClasses] = useState([])

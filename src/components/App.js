@@ -4,10 +4,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {Navbar} from './Navbar'
 import {Header} from './Header'
 import {CharacterForm} from './CharacterForm'
-import {ClassCard} from './ClassCard'
 import {Home} from './Home'
 import {ClassesContainer} from '../containers/ClassesContainer'
-import {ClassSkills} from './ClassSkills'
+import {SkillsContainer} from '../containers/SkillsContainer'
 
 function App() {
   return (
@@ -18,11 +17,12 @@ function App() {
         <Switch>
           <Route path ="/characters/new">
             <CharacterForm />
+          
+          </Route>
+          <Route path ="/classes/:id">
+            <SkillsContainer />
           </Route>
 
-          <Route exact path ="/classes/:id">
-            <ClassSkills />
-          </Route>
 
           <Route path ="/classes">
             <ClassesContainer />
