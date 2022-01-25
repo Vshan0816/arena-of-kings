@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const YourCharacters = () => {
+export const YourCharacters = ({classes}) => {
   return <div></div>;
 };

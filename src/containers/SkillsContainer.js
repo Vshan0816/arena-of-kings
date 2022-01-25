@@ -22,7 +22,6 @@ export const SkillsContainer = () => {
     return (
         <div>
             <SkillsList skills={skills} info={info}/>
-            {/* <img src="Images/Assassin/Assassin.png" /> */}
         </div>
     )
 }

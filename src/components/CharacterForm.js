@@ -1,11 +1,16 @@
 import {useState} from 'react'
 import {useHistory} from 'react-router-dom'
 
-export const CharacterForm = () => {
+export const CharacterForm = ({classes}) => {
     const [type, setType] = useState("")
     const handleSubmit = (e) => {
         e.preventDefault()
     }
+    const skillMap = classes.map(classs=>{ 
+        return classs.skills.map(skill=>{
+            return console.log(skill)    
+        })
+    })
     return (
         <form onSubmit={handleSubmit}>
             <h1>Create a Character</h1>
@@ -26,7 +31,8 @@ export const CharacterForm = () => {
                 <option value="scholar">Scholar</option>
                 <option value="wizard">Wizard</option>
             </select>
-            {console.log(type)}
+
+            
         </form>
     )
 }

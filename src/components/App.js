@@ -8,8 +8,20 @@ import {Home} from './Home'
 import {ClassesContainer} from '../containers/ClassesContainer'
 import {SkillsContainer} from '../containers/SkillsContainer'
 import {YourCharacters} from './YourCharacters'
+import {useState, useEffect} from 'react'
 
 function App() {
+  const [classes, setClasses] = useState([])
+    const fetchData = () => {
+        fetch("http://localhost:3001/classes")
+        .then(response => response.json())
+        .then(data => setClasses(data))
+        .catch(error => alert(error))
+    }
+
+    useEffect(() => {
+        fetchData()
+    }, [])
   return (
     <div className="App">
       <Router>
@@ -17,11 +29,11 @@ function App() {
         <Header />
         <Switch>
           <Route path ="/characters/new">
-            <CharacterForm />
+            <CharacterForm classes={classes}/>
           
           </Route>
           <Route path ="/characters/list">
-            <YourCharacters />
+            <YourCharacters classes={classes}/>
           
           </Route>
           <Route path ="/classes/:id">
@@ -30,7 +42,7 @@ function App() {
 
 
           <Route path ="/classes">
-            <ClassesContainer />
+            <ClassesContainer classes={classes}/>
           </Route>
 
           <Route path ="/">
