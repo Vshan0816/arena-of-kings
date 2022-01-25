@@ -2,28 +2,40 @@ import {useState} from 'react'
 import {useHistory} from 'react-router-dom'
 
 export const CharacterForm = ({classes}) => {
-    const [type, setType] = useState("")
+    const [classType, setClassType] = useState("")
     const [filteredClass, setFilteredClass] = useState([])
     const [filteredSkillList, setFilteredSkillList] = useState([])
+    const [name, setName] = useState("")
+    const [skill1, setSkill1] = useState("")
+    const [skill2, setSkill2] = useState("")
+    const [skill3, setSkill3] = useState("")
+    const [skill4, setSkill4] = useState("")
+    const [skill5, setSkill5] = useState("")
+    const [skill6, setSkill6] = useState("")
+    const [skill7, setSkill7] = useState("")
+    const [skill8, setSkill8] = useState("")
+
     const handleSubmit = (e) => {
         e.preventDefault()
+        const newCharacter = {classType, name, skill1, skill2, skill3, skill4, skill5, skill6, skill7, skill8}
+        fetch("http://localhost:3001/characters", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(newCharacter)
+        })
     }
-    // const skillMap = classes.map(classs=>{ 
-    //     return classs.skills.map(skill=>{
-              
-    //     })
-    // })
+    
 
     const handleSelect = (selectValue) => {
         console.log(selectValue)
         const filteredClasses = classes.filter(classs=> classs.class===selectValue)
         setFilteredClass((filteredClass) => filteredClass = filteredClasses)
         console.log(filteredClasses)
-        const filteredSkills = filteredClass[0].skills.map( skill => {
-            return console.log(skill)
-        
-        
-        })
+        // const filteredSkills = filteredClass[0].skills.map( skill => {
+        //     return console.log(skill)
+        // })
         
 
     }
@@ -48,9 +60,26 @@ export const CharacterForm = ({classes}) => {
                 <option value="Ranger">Ranger</option>
                 <option value="Scholar">Scholar</option>
                 <option value="Wizard">Wizard</option>
-            </select>
-            {}
-        
+            </select><br />< br />
+            <label htmlFor="name">Name</label>
+            <input onChange={e => setName(e.target.value)} type="text" value={name} /><br />< br />
+            <label htmlFor="skill1">Choose First Skill</label>
+            <input onChange={e => setSkill1(e.target.value)} type="text" value={skill1} /><br />< br />
+            <label htmlFor="skill2">Choose Second Skill</label>
+            <input onChange={e => setSkill2(e.target.value)} type="text" value={skill2} /><br />< br />
+            <label htmlFor="skill3">Choose Third Skill</label>
+            <input onChange={e => setSkill3(e.target.value)} type="text" value={skill3} /><br />< br />
+            <label htmlFor="skill4">Choose Fourth Skill</label>
+            <input onChange={e => setSkill4(e.target.value)} type="text" value={skill4} /><br />< br />
+            <label htmlFor="skill5">Choose Fifth Skill</label>
+            <input onChange={e => setSkill5(e.target.value)} type="text" value={skill5} /><br />< br />
+            <label htmlFor="skill6">Choose Sixth Skill</label>
+            <input onChange={e => setSkill6(e.target.value)} type="text" value={skill6} /><br />< br />
+            <label htmlFor="skill7">Choose Seventh Skill</label>
+            <input onChange={e => setSkill7(e.target.value)} type="text" value={skill7} /><br />< br />
+            <label htmlFor="skill8">Choose Eigth Skill</label>
+            <input onChange={e => setSkill8(e.target.value)} type="text" value={skill8} /><br />< br />
+            <input type="submit" value="Create" />        
             
         </form>
     )
