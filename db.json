@@ -47,18 +47,16 @@
             "classLogo":"Images/ClassLogos/Assassingif.gif",
             "skills":[
                 {
-                    "assassinBasicAttack": {
-                        "skillName":"Assassin Basic Attack",
-                        "icon":"Images/Assassin/Assassin.png",
-                        "cost":"0 Energy",
-                        "castTime":"Instant",
-                        "cooldown":"0 seconds",
-                        "range":"14yds",
-                        "description":"Deals 317 physical damage (main-hand) plus 158 (off-hand) and restores 5 Energy. (Passive) 30% Weapon Toxin - Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. (Passive) 30% Weapon Toxin - Infection: Reduces maximum health by 10%, all healing received by 30% and deals 1% of maximum health every second as physical damage."      
-                    }
+                    "skillName":"Assassin Basic Attack",
+                    "icon":"Images/Assassin/Assassin.png",
+                    "cost":"0 Energy",
+                    "castTime":"Instant",
+                    "cooldown":"0 seconds",
+                    "range":"14yds",
+                    "description":"Deals 317 physical damage (main-hand) plus 158 (off-hand) and restores 5 Energy. (Passive) 30% Weapon Toxin - Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. (Passive) 30% Weapon Toxin - Infection: Reduces maximum health by 10%, all healing received by 30% and deals 1% of maximum health every second as physical damage."                         
                 },  
                 {
-                    "annihilate": {
+                
                         "skillName":"Annihilate",
                         "icon":"Images/Assassin/Annihilate.jpg",
                         "cost":"50 Energy",
@@ -66,10 +64,10 @@
                         "cooldown":"0 seconds",
                         "range":"14yds",
                         "description":"Instantly strike your target with both daggers, dealing 677 (main-hand) and 338 (off-hand) physical damage. Your passive chance to apply Weapon Toxins is increased by 25%. Breaks Stealth. (Passive) 30% Weapon Toxin - Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage.(Passive) 30% Weapon Toxin - Infection: Reduces maximum health by 10%, all healing received by 30% and deals 1% of maximum health every second as physical damage. Out of Combat Stealth Bonus: Annihilate deals an additional 20% damage. Generates 2 Combo Points."
-                    }
+                    
                 },
                 {
-                    "bandage": {
+                    
                         "skillName":"Bandage",
                         "icon":"Images/Assassin/Bandage.jpg",
                         "cost":"0 Energy",
@@ -77,10 +75,10 @@
                         "cooldown":"10 seconds",
                         "range":"35yds",
                         "description":"Heals you for 733 and applies Bandage for 6 seconds and removes the most recently applied Status Ailment. Does not break Stealth. Bandage: Provides 10% damage reduction. Heals for 153 every second. The amount healed increases by 37 every tick. Bandage ends upon receiving 750 damage."
-                    }
+                    
                 },
                 {
-                    "dash": {
+                    
                         "skillName":"Dash",
                         "icon":"Images/Assassin/Dash.jpg",
                         "cost":"0 Energy",
@@ -88,10 +86,10 @@
                         "cooldown":"20 seconds",
                         "range":"0 yds",
                         "description":"Removes all movement impairing Debuffs and applies Dash to you for 3 seconds. Ignores global cooldown. Does not break Stealth. Dash: Applies a 30% Fading Haste, restores 5 Energy every second, and increases Armor by 93."
-                    }
+                    
                 },
                 {
-                    "daze": {
+                    
                         "skillName":"Daze",
                         "icon":"Images/Assassin/Daze.jpg",
                         "cost":"25 Energy",
@@ -99,10 +97,10 @@
                         "cooldown":"20 seconds",
                         "range":"14yds",
                         "description":"Deals 420 physical damage and applies Stun based on the number of Combo Points you have. Breaks Stealth. 1 point   2.0 seconds2 point   2.3 seconds 3 point   2.6 seconds 4 point   2.9 seconds 5 point   3.2 seconds. Out of Combat Stealth Bonus: Increases Stun duration by 10% and applies Expose Vulnerabilities for 4 seconds. Stun: Disables movement and prevents the use of abilities. Expose Vulnerabilities: Amplifies all damage taken by 8%."
-                    }
+                    
                 },
                 {
-                    "disappearingAct": {
+                    
                         "skillName":"Disappearing Act",
                         "icon":"Images/Assassin/DisappearingAct.jpg",
                         "cost":"0 Energy",
@@ -110,10 +108,10 @@
                         "cooldown":"45 seconds",
                         "range":"20yds",
                         "description":"Removes all movement impairing Debuffs and applies Empowered Stealth to you for 10 seconds. Applies Blind to all enemies within 20 yards for 1.2 seconds. Empowered Stealth: You leave Combat instantly and become invisible to enemies, generating 1 Combo Point every second. Increases Energy Regeneration by 50%. Increases Movement Speed by 25%. Breaks upon receiving damage. Blind: Reduces Power by 12% and causes your screen to go white, hindering your vision."
-                    }
+                    
                 },
                 {
-                    "envenom": {
+                    
                         "skillName":"Envenom",
                         "icon":"Images/Assassin/Envenom.jpg",
                         "cost":"20 Energy",
@@ -121,10 +119,10 @@
                         "cooldown":"5 seconds",
                         "range":"14yds",
                         "description":"Deals 452 physical damage and instantly applies your Weapon Toxins in addition to Hobble for 2 seconds. Breaks Stealth. Weapon Toxin - Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Weapon Toxin - Infection: Reduces maximum health by 10%, all healing received by 30% and deals 1% of maximum health every second as physical damage. Generates 1 Combo Point."
-                    }
+                    
                 },
                 {
-                    "murderousInstincts": {
+                    
                         "skillName":"Murderous Instincts",
                         "icon":"Images/Assassin/MurderousInstincts.jpg",
                         "cost":"0 Energy",
@@ -132,10 +130,10 @@
                         "cooldown":"45 seconds",
                         "range":"0yds",
                         "description":"Applies Murderous Instincts to you for 5 seconds. Ignores global cooldown. Does not break Stealth. Murderous Instincts: Increases your Power by 13% and Critical Strike rating by 50%. Restores 10 Energy every second."
-                    }
+                    
                 },
                 {
-                    "puncture": {
+                    
                         "skillName":"Puncture",
                         "icon":"Images/Assassin/Puncture.jpg",
                         "cost":"20 Energy",
@@ -143,10 +141,10 @@
                         "cooldown":"0 seconds",
                         "range":"14yds",
                         "description":"Spend all of your combo points, applying Puncture to target enemy for 9 seconds. Puncture: Deals 42 physical damage every second and cannot be dispelled. The amount of damage dealt is increased by spending more Combo Points. 1 point   84 physical damage. 2 points 126 physical damage. 3 points 168 physical damage. 4 points 210 physical damage. 5 points 252 physical damage. Out of Combat Stealth Bonus: Applies Silence for 1-2 seconds based on the number of Combo Points you spent."
-                    }
+                    
                 },
                 {
-                    "shadowWalk": {
+                    
                         "skillName":"Shadow Walk",
                         "icon":"Images/Assassin/ShadowWalk.jpg",
                         "cost":"15 Energy",
@@ -154,10 +152,10 @@
                         "cooldown":"20 seconds",
                         "range":"80yds",
                         "description":"Teleport to target and applies Dash to you for 2 seconds.Ignores global cooldown. Does not break Stealth.Dash: Applies a 25% Fading Haste, restores 5 Energy every second, and insceases Amor by 98."
-                    }
+                    
                 },
                 {
-                    "shroud": {
+                    
                         "skillName":"Shroud",
                         "icon":"Images/Assassin/Shroud.jpg",
                         "cost":"0 Energy",
@@ -165,10 +163,10 @@
                         "cooldown":"45 seconds",
                         "range":"0yds",
                         "description":"Applies Shroud to you for 2 seconds. Ignores global cooldown. Does not break Stealth. Shroud: Provides 90% damage reduction, makes you immune to all harmful effects, and increases healing received from all sources by 30%."
-                    }
+                    
                 },
                 {
-                    "slap": {
+                    
                         "skillName":"Slap",
                         "icon":"Images/Assassin/Slap.jpg",
                         "cost":"20 Energy",
@@ -176,10 +174,10 @@
                         "cooldown":"16 seconds",
                         "range":"14yds",
                         "description":"Deals 286 physical damage and Interrupts for 2.5 seconds. If an ability was Interrupted, Slap Generates 1 Combo Point, deals an additional 286 physical damage, and applies Silence for 1 second. Ignores global cooldown. Breaks Stealth. Silence: Prevents the use of abilities. Interrupt: Prevents the current casting spell from being performed and locks it for a short period of time if the spell has a cooldown."
-                    }
+                    
                 },
                 {
-                    "slash": {
+                    
                         "skillName":"Slash",
                         "icon":"Images/Assassin/Slash.jpg",
                         "cost":"35 Energy",
@@ -187,10 +185,10 @@
                         "cooldown":"0 seconds",
                         "range":"14yds",
                         "description":" Spend all of your combo points to deal 528 physical damage. The amount of damage dealt is increased by spending more Combo Points. 1 point   105 physical damage. 2 points 210 physical damage. 3 points 315 physical damage. 4 points 420 physical damage. 5 points 525 physical damage. Out of Combat Stealth Bonus: Deals 15% additional damage."
-                    }
+                    
                 },
                 {
-                    "stealth": {
+                    
                         "skillName":"Stealth",
                         "icon":"Images/Assassin/Stealth.jpg",
                         "cost":"0 Energy",
@@ -198,10 +196,10 @@
                         "cooldown":"20 seconds",
                         "range":"14yds",
                         "description":"Applies Stealth to you for 12 seconds. Stealth: You are invisible to enemies and generate 1 Combo Point every second. Increases Energy Regeneration by 50%. After 2 seconds you leave Combat, empowering some of your attacks. Increases Movement Speed by 25%. Breaks upon receiving damage."
-                    }
+                    
                 },
                 {
-                    "templeStrike": {
+                    
                         "skillName":"Temple Strike",
                         "icon":"Images/Assassin/TempleStrike.jpg",
                         "cost":"35 Energy",
@@ -209,10 +207,10 @@
                         "cooldown":"14 seconds",
                         "range":"14yds",
                         "description":"Deals 368 physical damage and applies Incapacitate for 2.5 seconds. Breaks Stealth. Out of Combat Stealth Bonus: Increases Incapacitate duration by 50% and causes Temple Strike to not break Stealth. Incapacitate: Disables movement and prevents the use of abilities. Breaks on receiving damage. Generates 1 Combo Point."
-                    }
+                    
                 },
                 {
-                    "whirlingKnives": {
+                    
                         "skillName":"Whirling Knives",
                         "icon":"Images/Assassin/WhirlingKnives.jpg",
                         "cost":"50 Energy",
@@ -220,7 +218,7 @@
                         "cooldown":"6 seconds",
                         "range":"22yds",
                         "description":"Deals 475 physical damage and applies Bleeding and Hobble for 2 seconds to all enemies within 22 yards. Damage dealt can also apply your Weapon Toxins Infection and Poison (30% chance). Does not break Stealth. Bleeding: Deals 1.85% of maximum health every second as true damage. Deals 1% of maximum health whenever an ability is used. Generates 1 Combo Point if an enemy was hit."
-                    }    
+                        
                 }
             ]
         },
@@ -230,7 +228,7 @@
             "classLogo":"Images/ClassLogos/Championgif.gif",
             "skills":[
                 {
-                    "championBasicAttack": {
+                    
                         "skillName":"Champion Basic Attack",
                         "icon":"Images/Champion/Champion.png",
                         "cost":"0 Rage",
@@ -238,10 +236,10 @@
                         "cooldown":"0 seconds",
                         "range":"15yds",
                         "description":"Deals 705 physical damage and restores 20-35 Rage.   (Passive) You have a 5% chance to perform an Extra Attack"      
-                    }
+                    
                 },
                 {
-                    "disruptingBlade": {
+                    
                         "skillName":"Disrupting Blade",
                         "icon":"Images/Champion/DisruptingBlade.png",
                         "cost":"10 Rage",
@@ -249,10 +247,10 @@
                         "cooldown":"16 seconds",
                         "range":"15yds",
                         "description":"Deals 326 physical damage and Interrupts for 2.5 seconds. If an ability was Interrupted, deals an additional 292 physical damage, and applies Silence for 1 second. Ignores global cooldown. Silence: Prevents the use of abilities. Interrupt: Prevents the current casting spell from being performed and locks it for a short period of time if the spell has a cooldown."      
-                    }
+                    
                 }, 
                 {
-                    "charge": {
+                    
                         "skillName":"Charge",
                         "icon":"Images/Champion/Charge.png",
                         "cost":"0 Rage",
@@ -260,10 +258,10 @@
                         "cooldown":"18 seconds",
                         "range":"55yds",
                         "description":"Charge towards target enemy dealing 478 physical damage and applying Charge for 1 second. You gain 25 Rage. Cannot be used while Rooted.Charge: Decreases Movement Speed to 0%."      
-                    }
+                    
                 }, 
                 {
-                    "coward": {
+                    
                         "skillName":"Coward",
                         "icon":"Images/Champion/Coward.png",
                         "cost":"30 Rage",
@@ -271,10 +269,10 @@
                         "cooldown":"40 seconds",
                         "range":"35yds",
                         "description":"Applies Fear for 2.2 seconds to all enemies within 35 yards of you. Fear: Causes you to run in a random direction and prevents the use of abilities. Breaks upon receiving damage equal to 9% of your maximum health."      
-                    }
+                    
                 }, 
                 {
-                    "cripplingSlash": {
+                    
                         "skillName":"Crippling Slash",
                         "icon":"Images/Champion/CripplingSlash.png",
                         "cost":"0 Rage",
@@ -282,10 +280,10 @@
                         "cooldown":"6 seconds",
                         "range":"15yds",
                         "description":"Deals 329 physical damage and applies Hobble for 4 seconds to target enemy. Has a 20% chance to apply Crippling Slash for 2 seconds. Ignores global cooldown. Hobble: Decreases Movement Speed by 60% and increases physical damage taken by 3%. Crippling Slash: Decreases Movement Speed to 0%."      
-                    }
+                    
                 }, 
                 {
-                    "crushingBlow": {
+                    
                         "skillName":"Crushing Blow",
                         "icon":"Images/Champion/CrushingBlow.png",
                         "cost":"30 Rage",
@@ -293,10 +291,10 @@
                         "cooldown":"18 seconds",
                         "range":"15yds",
                         "description":"Deals 279 physical damage and applies Stun for 2.2 seconds to target enemy. Ignores global cooldown. Stun: Disables movement and prevents the use of abilities."      
-                    }
+                    
                 }, 
                 {
-                    "decapitate": {
+                    
                         "skillName":"Decapitate",
                         "icon":"Images/Champion/Decapitate.png",
                         "cost":"0 Rage",
@@ -304,10 +302,10 @@
                         "cooldown":"15 seconds",
                         "range":"15yds",
                         "description":"Consume all of your Rage dealing 441 physical damage plus an additional 4 damage for each point of Rage consumed to target enemy. If your target is below 25% health, Decapitate is a guaranteed Critical Strike and deals 150% more damage."      
-                    }
+                    
                 }, 
                 {
-                    "enduringWarcry": {
+                    
                         "skillName":"Enduring Warcry",
                         "icon":"Images/Champion/EnduringWarcry.png",
                         "cost":"0 Rage",
@@ -315,10 +313,10 @@
                         "cooldown":"15 seconds",
                         "range":"60yds",
                         "description":"Heals 7% of missing health and applies Enduring Warcry to all allies within 60 yards for 10 seconds. Generates 5 Rage for each ally that hears the Warcry. Enduring Warcry: Increases maximum health by 699 and restores 2% of missing health every other second."      
-                    }
+                    
                 }, 
                 {
-                    "enrage": {
+                    
                         "skillName":"Enrage",
                         "icon":"Images/Champion/Enrage.png",
                         "cost":"0 Rage",
@@ -326,10 +324,10 @@
                         "cooldown":"40 seconds",
                         "range":"0yds",
                         "description":"Applies Enrage to you for 4 seconds and you gain 20 Rage. Enrage: Increases Power by 103 and all damage received by 20%. Generates 2 Rage every second. Generates Rage equal to 1% of the damage dealt with attacks."      
-                    }
+                    
                 }, 
                 {
-                    "intimidation": {
+                    
                         "skillName":"Intimidation",
                         "icon":"Images/Champion/Intimidation.png",
                         "cost":"0 Rage",
@@ -337,10 +335,10 @@
                         "cooldown":"0 seconds",
                         "range":"30yds",
                         "description":"Aura: Passively applies Intimidation to all enemies within 30 yards. Intimidation: Lowers Armor by 14% and Movement Speed by 8%."      
-                    }
+                    
                 }, 
                 {
-                    "lacerate": {
+                    
                         "skillName":"Lacerate",
                         "icon":"Images/Champion/Lacerate.png",
                         "cost":"35 Rage",
@@ -348,10 +346,10 @@
                         "cooldown":"5 seconds",
                         "range":"15yds",
                         "description":"Deals 893 physical damage and applies Infection for 6 seconds to target enemy. Infection: Reduces maximum health by 10%, all healing received by 30% and deals 1% of maximum health every second as physical damage."      
-                    }
+                    
                 }, 
                 {
-                    "masterOfTheSword": {
+                    
                         "skillName":"Master Of The Sword",
                         "icon":"Images/Champion/MasterOfTheSword.png",
                         "cost":"0 Rage",
@@ -359,10 +357,10 @@
                         "cooldown":"12 seconds",
                         "range":"0yds",
                         "description":"Applies Master Of The Sword to you for 1.6 seconds. Master Of The Sword: All damage taken is redirected to two floating blades. Upon expiration, the blades deal 25% of their stored damage to all enemies within 20 yards."      
-                    }
+                    
                 }, 
                 {
-                    "resoundingWarcry": {
+                    
                         "skillName":"Resounding Warcry",
                         "icon":"Images/Champion/ResoundingWarcry.png",
                         "cost":"0 Rage",
@@ -370,10 +368,10 @@
                         "cooldown":"45 seconds",
                         "range":"60yds",
                         "description":"Applies Resounding Warcry to all allies within 60 yards for 3 seconds. Generates 15 Rage for each ally that hears the Warcry. Resounding Warcry: Increases Power by 48 and reduces all damage taken by 40%."      
-                    }
+                    
                 }, 
                 {
-                    "slashingStrike": {
+                    
                         "skillName":"Slashing Strike",
                         "icon":"Images/Champion/SlashingStrike.png",
                         "cost":"30 Rage",
@@ -381,10 +379,10 @@
                         "cooldown":"0 seconds",
                         "range":"15yds",
                         "description":"Deals 871 physical damage and applies Bleeding for 3 seconds to target enemy. Applies Bloodthirst to you for 6 seconds. Bleeding: Deals 1.85% of maximum health every second as true damage. Deals 1% of maximum health whenever an ability is used. Bloodthirst: Heals for 20% of Bleeding damage dealt."      
-                    }
+                    
                 }, 
                 {
-                    "sprint": {
+                   
                         "skillName":"Sprint",
                         "icon":"Images/Champion/Sprint.png",
                         "cost":"0 Rage",
@@ -392,10 +390,10 @@
                         "cooldown":"16 seconds",
                         "range":"0yds",
                         "description":"Heals you for 5% of your maximum health and applies Sprint to you for 5 seconds. Ignores global cooldown. Sprint: Applies a 25% Fading Haste and restores 5% (reduced by 1% every tick) health every second."      
-                    }
+                    
                 }, 
                 {
-                    "whirlwind": {
+                    
                         "skillName":"Whirlwind",
                         "icon":"Images/Champion/Whirlwind.png",
                         "cost":"50 Rage",
@@ -403,7 +401,7 @@
                         "cooldown":"7 seconds",
                         "range":"24yds",
                         "description":"Creates a Whirlwind around you, striking each nearby enemy twice for 394 physical damage. Restore health equal to 20% of the damage dealt. Ignores global cooldown."      
-                    }
+                    
                 }
                 
             ]
@@ -414,7 +412,7 @@
             "classLogo":"Images/ClassLogos/Eldergif.gif",
             "skills":[
                 {
-                    "elderBasicAttack": {
+                    
                         "skillName":"Elder Basic Attack",
                         "icon":"Images/Elder/Elder.png",
                         "cost":"0 Mana",
@@ -422,10 +420,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 377 magic damage."      
-                    }
+                    
                 },
                 {
-                    "corrosiveAsp": {
+                    
                         "skillName":"Corrosive Asp",
                         "icon":"Images/Elder/CorrosiveAsp.png",
                         "cost":"225 Mana",
@@ -433,10 +431,10 @@
                         "cooldown":"10 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 687 magic damage and applies Poison, Hobble, for 3 seconds and Blind for 1 seconds on impact. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect. Hobble: Slows Movement Speed by 50%. Blind: Reduces Power by 12% and causes your screen to go white, hindering your vision."      
-                    }
+                    
                 },
                 {
-                    "graspingVines": {
+                    
                         "skillName":"Grasping Vines",
                         "icon":"Images/Elder/GraspingVines.png",
                         "cost":"220 Mana",
@@ -444,10 +442,10 @@
                         "cooldown":"12 seconds",
                         "range":"80yds",
                         "description":"Applies Grasping Vines to target enemy for 3 seconds. Grasping Vines: Decreases Movement Speed to 0 and deals 236 damage per second. Breaks upon receiving damage equal to 25% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "inspiration": {
+                    
                         "skillName":"Inspiration",
                         "icon":"Images/Elder/Inspiration.png",
                         "cost":"0 Mana",
@@ -455,10 +453,10 @@
                         "cooldown":"60 seconds",
                         "range":"80yds",
                         "description":"Applies Inspiration to target ally for 10 seconds. Inspiration: Restores 45 plus 2.5% of missing Mana every second (95% reduced effectiveness for Energy and Rage)."      
-                    }
+                    
                 },
                 {
-                    "mendingSpirit": {
+                    
                         "skillName":"Mending Spirit",
                         "icon":"Images/Elder/MendingSpirit.png",
                         "cost":"230 Mana",
@@ -466,10 +464,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Heals for 151 and applies 1 stack of Mending Spirit to target ally for 7 seconds. Mending Spirit: Heals for 151 health every second. When Mending Spirit expires, heals for 688. Stacks up to 3 times."      
-                    }
+                    
                 },
                 {
-                    "remedy": {
+                    
                         "skillName":"Remedy",
                         "icon":"Images/Elder/Remedy.png",
                         "cost":"245 Mana",
@@ -477,10 +475,10 @@
                         "cooldown":"15 seconds",
                         "range":"80yds",
                         "description":"Cleanses the most recently applied Status Ailment or Debuff from target ally and heals for 389 if a Status Ailment or Debuff was cleansed. Applies Remedy for 6 seconds. Remedy: Every 2 seconds cleanse the most recently applied Status Ailment or Debuff and heals for 389 if a Status Ailment or Debuff was cleansed."      
-                    }
+                    
                 },
                 {
-                    "revitalize": {
+                    
                         "skillName":"Revitalize",
                         "icon":"Images/Elder/Revitalize.png",
                         "cost":"380 Mana",
@@ -488,10 +486,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Heals target ally for 1328 plus an additional 78 for each Buff on the target and applies Revitalize for 8 seconds. Revitalize: Heals 112 plus an additional 27 for each Buff."      
-                    }
+                    
                 },
                 {
-                    "ritual": {
+                    
                         "skillName":"Ritual",
                         "icon":"Images/Elder/Ritual.png",
                         "cost":"0 Mana",
@@ -499,10 +497,10 @@
                         "cooldown":"0 seconds",
                         "range":"0yds",
                         "description":"Aura: Passively applies Ritual to all allies within 80 yards. Ritual: Heals for 3% of missing health every 4 seconds. The amount of Health restored is doubled for the Elder while in Human form and tripled while Shapeshifted."      
-                    }
+                    
                 },
                 {
-                    "seedOfLife": {
+                    
                         "skillName":"Seed Of Life",
                         "icon":"Images/Elder/SeedOfLife.png",
                         "cost":"320 Mana",
@@ -510,10 +508,10 @@
                         "cooldown":"12 seconds",
                         "range":"80yds",
                         "description":"Applies Seed of Life to target ally for 9 seconds with 2 bounce charges. Seed of Life: Heals for 463 when applied and an additional 204 every second. Reduces all damage taken by 20%. After 3 seconds, Seed of Life bounces to the nearest, lowest health other ally within 65 yards. If there are no valid targets for a bounce, Seed of Life expires."      
-                    }
+                    
                 },
                 {
-                    "serenity": {
+                   
                         "skillName":"Serenity",
                         "icon":"Images/Elder/Serenity.png",
                         "cost":"350 Mana",
@@ -521,10 +519,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Creates Serenity at your cursor's location for 4 seconds. Serenity: Applies Serenity for 10 seconds to all allies within 40 yards. Serenity: Heals for 145 health every second."      
-                    }
+                    
                 },
                 {
-                    "soothe": {
+                    
                         "skillName":"Soothe",
                         "icon":"Images/Elder/Soothe.png",
                         "cost":"280 Mana",
@@ -532,10 +530,10 @@
                         "cooldown":"25 seconds",
                         "range":"80yds",
                         "description":"Critically heal target ally for 645 plus 20% of their missing Health. Heals an additional 120 for each Buff on the target. Ignores global cooldown."      
-                    }
+                    
                 },
                 {
-                    "shapeshiftSpiritWolf": {
+                    
                         "skillName":"Shapeshift Spirit Wolf",
                         "icon":"Images/Elder/SpiritWolf.png",
                         "cost":"125 Mana",
@@ -543,10 +541,10 @@
                         "cooldown":".5 seconds",
                         "range":"n/a",
                         "description":"Transform into a Spirit Wolf, removing root and slowing Debuffs. Casting a spell breaks Spirit Wolf, returning you to Human form. Spirit Wolf: While Shapeshifted increases Movement Speed by 35%, reduces Magic damage taken by 25%, and restores 1.5% of missing Mana every second. You are immune to Mana Burn abilities while Shapeshifted."      
-                    }
+                    
                 },
                 {
-                    "shapeshiftBear": {
+                    
                         "skillName":"Shapeshift Bear",
                         "icon":"Images/Elder/Bear.png",
                         "cost":"350 Mana",
@@ -554,10 +552,10 @@
                         "cooldown":"0 seconds",
                         "range":"n/a",
                         "description":"Transform into a Bear unleashing your Feral instincts, applying Deafening Roar to enemies within 30 yards for 2 seconds. Casting a spell breaks Bear, returning you to Human form. Deafening Roar: Reduces Power by 6% and Movement Speed by 15%. Bear: While shapeshifted you gain 650 Armor, 20% increased Health, and restore 4% of your missing Health every other second. Healing received from all sources is increased by 10%. You are immune to Mana Burn abilities while Shapeshifted. Bear Charge: Charge towards target enemy interrupting their cast and immobilizing them for 2 seconds. Bear Smash: Stuns your target for 1.5 seconds. Bear Ironbark: Provides you with 40% damage reduction for 4 seconds."      
-                    }
+                    
                 },
                 {
-                    "symbiosis": {
+                    
                         "skillName":"Symbiosis",
                         "icon":"Images/Elder/Symbiosis.png",
                         "cost":"395 Mana",
@@ -565,10 +563,10 @@
                         "cooldown":"6 seconds",
                         "range":"0yds",
                         "description":"Heals for 311 and applies Symbiosis to all allies for 4 seconds. Symbiosis: Heals for 311 every second. The amount healed is reduced by 54 every tick."      
-                    }
+                    
                 },
                 {
-                    "toxicSpore": {
+                    
                         "skillName":"Toxic Spore",
                         "icon":"Images/Elder/ToxicSpore.png",
                         "cost":"200 Mana",
@@ -576,10 +574,10 @@
                         "cooldown":"4 seconds",
                         "range":"80yds",
                         "description":"Creates a Toxic Spore at your cursor's location that explodes after 1 second. Toxic Spore: Deals 753 magic damage and applies Poison to all enemies within 15 yards for 3 seconds. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect."      
-                    }
+                    
                 },
                 {
-                    "windstorm": {
+                    
                         "skillName":"Windstorm",
                         "icon":"Images/Elder/Windstorm.png",
                         "cost":"175 Mana",
@@ -587,7 +585,7 @@
                         "cooldown":"16 seconds",
                         "range":"80yd",
                         "description":"Applies Windstorm to target enemy for 3 seconds. Windstorm: You are immune to healing, all sources of damage, effects and cannot move or use any abilities."      
-                    }
+                    
                 }
             ]
         },
@@ -597,7 +595,7 @@
             "classLogo":"Images/ClassLogos/Lichgif.gif",
             "skills":[
                 {
-                    "lichBasicAttack": {
+                    
                         "skillName":"Lich Basic Attack",
                         "icon":"Images/Lich/Lich.png",
                         "cost":"0 Mana",
@@ -605,10 +603,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 449 magic damage."      
-                    }
+                    
                 },
                 {
-                    "abyssalSpike": {
+                    
                         "skillName":"Abyssal Spike",
                         "icon":"Images/Lich/AbyssalSpike.png",
                         "cost":"230 Mana",
@@ -616,10 +614,10 @@
                         "cooldown":"14 seconds",
                         "range":"55yds",
                         "description":"Deals 728 magic damage and applies Stun for 1.2 second to target enemy. Deals an additional 348 if your target is under the effects of Poison. Stun: Disables movement and prevents the use of abilities. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect."      
-                    }
+                    
                 },
                 {
-                    "acidRain": {
+                    
                         "skillName":"Acid Rain",
                         "icon":"Images/Lich/AcidRain.png",
                         "cost":"280 Mana",
@@ -627,10 +625,10 @@
                         "cooldown":"8 seconds",
                         "range":"80yds",
                         "description":"Creates Acid Rain at your cursor's location for 6 seconds. Acid Rain: Deals 273 magic damage and applies Poison for 2 seconds every second. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect."      
-                    }
+                    
                 },
                 {
-                    "contagion": {
+                    
                         "skillName":"Contagion",
                         "icon":"Images/Lich/Contagion.png",
                         "cost":"0 Mana",
@@ -638,10 +636,10 @@
                         "cooldown":"0 seconds",
                         "range":"0yds",
                         "description":"Aura: Passively applies Contagion to all enemies within 50 yards. Contagion: Lowers Magic Resistance by 13%. Increases damage taken by Poison by 6%. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect."      
-                    }
+                    
                 },
                 {
-                    "deathsGrasp": {
+                    
                         "skillName":"Deaths Grasp",
                         "icon":"Images/Lich/DeathsGrasp.png",
                         "cost":"280 Mana",
@@ -649,10 +647,10 @@
                         "cooldown":"18 seconds",
                         "range":"80yds",
                         "description":"Deals 644 magic damage and applies Malediction for 3 seconds and Deaths Grasp for 2 second. If target enemy is below 25% health, Deaths Grasp is a guaranteed Critical Strike. Malediction: Amplifies all damage taken by 8% and reduces all healing received by 20%. Deaths Grasp: Decreases Movement Speed by 100%."      
-                    }
+                    
                 },
                 {
-                    "depravity": {
+                    
                         "skillName":"Depravity",
                         "icon":"Images/Lich/Depravity.png",
                         "cost":"230 Mana",
@@ -660,10 +658,10 @@
                         "cooldown":"16 seconds",
                         "range":"80yds",
                         "description":"Interrupts target enemy for 3 seconds. If an ability was Interrupted, applies Silence for 2 seconds and burns 244 Mana plus an additional 6% of current Mana (95% reduced effectiveness for Energy or Rage) whenever an ability is used. Ignores global cooldown. Interrupt: Prevents the current casting spell from being performed and locks it for a short period of time if the spell has a cooldown. Silence: Prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "exhaustion": {
+                    
                         "skillName":"Exhaustion",
                         "icon":"Images/Lich/Exhaustion.png",
                         "cost":"270 Mana",
@@ -671,10 +669,10 @@
                         "cooldown":"8 seconds",
                         "range":"80yds",
                         "description":"Applies Exhaustion to target enemy for 6 seconds. Exhaustion: Reduces Power by 20% and inflicts a 90% Ramping Snare."      
-                    }
+                    
                 },
                 {
-                    "miasma": {
+                    
                         "skillName":"Miasma",
                         "icon":"Images/Lich/Miasma.png",
                         "cost":"260 Mana",
@@ -682,10 +680,10 @@
                         "cooldown":"4 seconds",
                         "range":"80yds",
                         "description":"Applies Miasma for 8 seconds to target enemy. Ignores global cooldown. Miasma: Deals 115 magic damage every second and increases damage received from all sources by 27. If Miasma is dispelled, applies Silence for 1.4 seconds. Silence: Prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "netherBolt": {
+                   
                         "skillName":"Nether Bolt",
                         "icon":"Images/Lich/Netherbolt.png",
                         "cost":"250 Mana",
@@ -693,10 +691,10 @@
                         "cooldown":"6 seconds",
                         "range":"80yds",
                         "description":"Launches a slow moving projectile toward target enemy dealing 1056 magic damage on impact. Applies Malediction for 6 seconds. Malediction: Amplifies all damage taken by 8% and reduces all healing received by 20%."      
-                    }
+                    
                 },
                 {
-                    "parasite": {
+                   
                         "skillName":"Parasite",
                         "icon":"Images/Lich/Parasite.png",
                         "cost":"235 Mana",
@@ -704,10 +702,10 @@
                         "cooldown":"6 seconds",
                         "range":"80yds",
                         "description":"Applies Parasite to target enemy for 10 seconds. Parasite: Steals life equal to 3.5% of maximum health every second. If dispelled, deals 813 magic damage to the player suffering from Parasite."      
-                    }
+                    
                 },
                 {
-                    "pestilence": {
+                   
                         "skillName":"Pestilence",
                         "icon":"Images/Lich/Pestilence.png",
                         "cost":"265 Mana",
@@ -715,10 +713,10 @@
                         "cooldown":"14 seconds",
                         "range":"80yds",
                         "description":"Applies Pestilence to target enemy for 10 seconds.Pestilence: Deals 122 magic damage every second and applies Poison for the duration of Pestilence. Spreads Pestilence with the remaining duration to other allies within 17 yards every second. Whenever Poison deals damage, you are healed for 30% of the amount dealt. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect."      
-                    }
+                    
                 },
                 {
-                    "poisonNova": {
+                    
                         "skillName":"Poison Nova",
                         "icon":"Images/Lich/PoisonNova.png",
                         "cost":"300 Mana",
@@ -726,10 +724,10 @@
                         "cooldown":"0 seconds",
                         "range":"27yds",
                         "description":"Creates a nova of poisonous death around you applying Poison for 4 seconds to all enemies within 29 yards. Poison Nova heals you for 254 for each enemy struck. The amount healed is doubled if that enemy was already suffering from Poison. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect."      
-                    }
+                    
                 },
                 {
-                    "poolOfSouls": {
+                    
                         "skillName":"Pool Of Souls",
                         "icon":"Images/Lich/PoolOfSouls.png",
                         "cost":"300 Mana",
@@ -737,10 +735,10 @@
                         "cooldown":"8 seconds",
                         "range":"0yds",
                         "description":"Creates a Pool Of Souls at your cursor's location. Increases power by 1% every second you stand in it (maximum 5%) and restores 2% of missing Resource every second."      
-                    }
+                    
                 },
                 {
-                    "sacrificeSoul": {
+                    
                         "skillName":"Sacrifice Soul",
                         "icon":"Images/Lich/SacrificeSoul.png",
                         "cost":"0 Mana",
@@ -748,10 +746,10 @@
                         "cooldown":"20 seconds",
                         "range":"0yds",
                         "description":"Sacrifice 15% Health in exchange for 12% Mana and applies Sacrifice Soul to you for 8 seconds. Sacrifice Soul: Increases Power by 10%."      
-                    }
+                    
                 },
                 {
-                    "shatterMagic": {
+                    
                         "skillName":"Shatter Magic",
                         "icon":"Images/Lich/ShatterMagic.png",
                         "cost":"230 Mana",
@@ -759,10 +757,10 @@
                         "cooldown":"18 seconds",
                         "range":"80yds",
                         "description":"Removes all Buffs from target enemy, dealing 361 magic damage for each Buff removed (maximum 2000 damage)."      
-                    }
+                    
                 },
                 {
-                    "terrify": {
+                    
                         "skillName":"Terrify",
                         "icon":"Images/Lich/Terrify.png",
                         "cost":"190 Mana",
@@ -770,10 +768,10 @@
                         "cooldown":"7 seconds",
                         "range":"80yds",
                         "description":"Applies Fear to target enemy for 2.2 seconds. Fear: Causes you to run in a random direction and prevents the use of abilities. Breaks upon receiving damage equal to 6% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "torment": {
+                    
                         "skillName":"Torment",
                         "icon":"Images/Lich/Torment.png",
                         "cost":"180 Mana",
@@ -781,10 +779,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Applies Torment to target enemy for 12 seconds. Torment: Deals 110 magic damage every second. The amount of damage dealt increases by 6 every tick."      
-                    }
+                    
                 },
                 {
-                    "underworldArmor": {
+                    
                         "skillName":"Underworld Armor",
                         "icon":"Images/Lich/UnderworldArmor.png",
                         "cost":"195 Mana",
@@ -792,7 +790,7 @@
                         "cooldown":"5 seconds",
                         "range":"80yds",
                         "description":"Heals you for 264 and applies Underworld Armor for 30 seconds. Underworld Armor: Reduces Physical damage taken by 15%. Restores 0.25% of maximum Health and Mana every second. Reduces the amount of health lost when performing Sacrificing spells by 25% and 3% Lifesteal. All healing received from all sources is increased by 10%. Lifesteal: Gain Health equal to a percentage of damage dealt from any source."      
-                    }
+                    
                 }
             ]
         },
@@ -802,7 +800,7 @@
             "classLogo":"Images/ClassLogos/Mysticgif.gif",
             "skills":[
                 {
-                    "mysticBasicAttack": {
+                    
                         "skillName":"Mystic Basic Attack",
                         "icon":"Images/Mystic/Mystic.png",
                         "cost":"0 Mana",
@@ -810,10 +808,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 417 magic damage."      
-                    }
+                    
                 },
                 {
-                    "aegis": {
+                    
                         "skillName":"Aegis",
                         "icon":"Images/Mystic/Aegis.png",
                         "cost":"260 Mana",
@@ -821,10 +819,10 @@
                         "cooldown":"20 seconds",
                         "range":"80yds",
                         "description":"Applies Aegis to target ally for 7 seconds.Aegis: Reduces all damage taken by 30%. Provides Immunity to the next incoming Hard Disable. Hard Disable: Any debuff that prevents the use of abilities"      
-                    }
+                    
                 },
                 {
-                    "astralShock": {
+                    
                         "skillName":"Astral Shock",
                         "icon":"Images/Mystic/AstralShock.jpg",
                         "cost":"225 Mana",
@@ -832,10 +830,10 @@
                         "cooldown":"8 seconds",
                         "range":"80yds",
                         "description":"Deals 640 magic damage to target enemy, applies Astral Shock for 4 seconds, and Interrupts for 2.5 seconds. If an ability was Interrupted, applies Silence for 1 second. Interrupt: Prevents the current casting spell from being performed and locks it for a short period of time if the spell has a cooldown. Astral Shock: Reduces Power, Armor, Magic Resist, and Movement Speed by 8%. Deals 123 magic damage every second. Silence: Prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "blackout": {
+                    
                         "skillName":"Blackout",
                         "icon":"Images/Mystic/Blackout.jpg",
                         "cost":"190 Mana",
@@ -843,10 +841,10 @@
                         "cooldown":"20 seconds",
                         "range":"14yds",
                         "description":"Deals 575 magic damage and applies Amnesia for 7 seconds and Fear for 2.0 seconds to all enemies within 25 yards of you. Amnesia: Reduces Power by 12%. Fear: Causes you to run in a random direction and prevents the use of abilities. Breaks upon receiving damage equal to 9% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "blessingSunAndMoon": {
+                   
                         "skillName":"Blessing Sun And Moon",
                         "icon":"Images/Mystic/BlessingSunAndMoon.jpg",
                         "cost":"225 Mana",
@@ -854,10 +852,10 @@
                         "cooldown":"4 seconds",
                         "range":"80yds",
                         "description":"Applies Blessing of the Sun and Moon to target ally for 8 seconds. Blessing of the Sun and Moon: Heals 277 every second and reduces all damage taken by 15%."      
-                    }
+                    
                 },
                 {
-                    "cleanse": {
+                    
                         "skillName":"Cleanse",
                         "icon":"Images/Mystic/Cleanse.jpg",
                         "cost":"230 Mana",
@@ -865,10 +863,10 @@
                         "cooldown":"7 seconds",
                         "range":"80yds",
                         "description":"Cleanse up to 3 total Status Ailments and/or Debuffs from target ally. For each effect cleansed that ally is healed for 301."      
-                    }
+                    
                 },
                 {
-                    "disenchant": {
+                    
                         "skillName":"Disenchant",
                         "icon":"Images/Mystic/Disenchant.jpg",
                         "cost":"380 Mana",
@@ -876,10 +874,10 @@
                         "cooldown":"8 seconds",
                         "range":"0yds",
                         "description":"After a short delay, hard dispels the most recently applied Debuff from allies and the most recently applied Buff from enemies within 25 yards of your cursor's location. Returns 20 Mana to you for each enemy Buff removed."      
-                    }
+                    
                 },
                 {
-                    "divination": {
+                   
                         "skillName":"Divination",
                         "icon":"Images/Mystic/Divination.jpg",
                         "cost":"0 Mana",
@@ -887,10 +885,10 @@
                         "cooldown":"20 seconds",
                         "range":"0yds",
                         "description":"Applies Divination to you for 8 seconds. Ignores global cooldown. Divination: Causes your next damaging, healing, or protective spell to be Empowered, causing all components of the spell to be 20% more effective. After empowering a spell, Divination refunds 100% of the Mana cost."      
-                    }
+                    
                 },
                 {
-                    "dreamOfProsperity": {
+                    
                         "skillName":"Dream Of Prosperity",
                         "icon":"Images/Mystic/DreamOfProsperity.jpg",
                         "cost":"300 Mana",
@@ -898,10 +896,10 @@
                         "cooldown":"10 seconds",
                         "range":"0yds",
                         "description":"Applies Dream of Prosperity to target ally for 7 seconds with 4 bounce charges. Dream of Prosperity: After receiving a total of 750 damage, heals for 941 and Dream of Prosperity bounces to the nearest, lowest health other ally within 85 yards. If there are no valid targets for a bounce, Dream of Prosperity expires."      
-                    }
+                    
                 },
                 {
-                    "healingVision": {
+                    
                         "skillName":"Healing Vision",
                         "icon":"Images/Mystic/HealingVision.jpg",
                         "cost":"295 Mana",
@@ -909,10 +907,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Heal target ally for 1582 and you for 278."      
-                    }
+                    
                 },
                 {
-                    "lifeStream": {
+                    
                         "skillName":"Life Stream",
                         "icon":"Images/Mystic/LifeStream.jpg",
                         "cost":"370 Mana",
@@ -920,10 +918,10 @@
                         "cooldown":"30 seconds",
                         "range":"80yds",
                         "description":"Applies Life Stream to target ally for 60 seconds. Ignores global cooldown. Life Stream: 20% of all damage and 10% of all healing done by you also heals the Life Stream target."      
-                    }
+                    
                 },
                 {
-                    "manaTap": {
+                    
                         "skillName":"Mana Tap",
                         "icon":"Images/Mystic/ManaTap.jpg",
                         "cost":"180 Mana",
@@ -931,10 +929,10 @@
                         "cooldown":"1 second",
                         "range":"80yds",
                         "description":"Deals 559 magic damage plus an additional 6% of target's current Resource value. Burns 86 Mana plus an additional 6% of target's current Mana (95% reduced effectiveness for Energy or Rage)."      
-                    }
+                    
                 },
                 {
-                    "spiritForm": {
+                    
                         "skillName":"Spirit Form",
                         "icon":"Images/Mystic/SpiritForm.jpg",
                         "cost":"245 Mana",
@@ -942,10 +940,10 @@
                         "cooldown":"45 seconds",
                         "range":"100yds",
                         "description":"Target ally transcends this plane, providing Immunity to all Debuffs and Status Ailments for 2.5 seconds. Casting Spirit Form applies Silence to target ally for 1 second. Upon using an ability, Spirit Form ends. Every second and when Spirit Form ends, heals all allies within 20 yards for 15% of missing health plus an additional 511. Ignores global cooldown. Spirit Form: You are invisible to enemies and are immune to all sources of damage. Silence: Prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "temporalBarrier": {
+                    
                         "skillName":"Temporal Barrier",
                         "icon":"Images/Mystic/TemporalBarrier.jpg",
                         "cost":"270 Mana",
@@ -953,7 +951,7 @@
                         "cooldown":"14 seconds",
                         "range":"80yds",
                         "description":"Applies Temporal Barrier to target ally for 7 seconds. When Temporal Barrier expires, heal that ally for 269. If Temporal Barrier depletes from absorbing damage, you are refunded 115 Mana and applies Slow Time to enemies within 22 yards for 2 seconds. Temporal Barrier: Absorbs 2173 damage and increases Movement Speed by 15%. Slow Time: Slows movement speed by 8%."      
-                    }
+                    
                 }
             ]
         },
@@ -963,7 +961,7 @@
             "classLogo":"Images/ClassLogos/Nihilistgif.gif",
             "skills":[
                 {
-                    "nihilistBasicAttack": {
+                   
                         "skillName":"Nihilist Basic Attack",
                         "icon":"Images/Nihilist/Nihilist.png",
                         "cost":"0 Mana",
@@ -971,10 +969,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 447 magic damage."      
-                    }
+                    
                 },
                 {
-                    "amalgamation": {
+                    
                         "skillName":"Amalgamation",
                         "icon":"Images/Nihilist/Amalgamation.png",
                         "cost":"0 Mana",
@@ -982,10 +980,10 @@
                         "cooldown":"n/a",
                         "range":"40yds",
                         "description":"Aura: Passively applies Amalgamation to all enemies within 40 yards. Steals 1% of health every other second. Steals an additional .5% health for every 25% of maximum health the Nihilist is missing."      
-                    }
+                    
                 },
                 {
-                    "blink": {
+                    
                         "skillName":"Blink",
                         "icon":"Images/Nihilist/Blink.jpg",
                         "cost":"200 Mana",
@@ -993,10 +991,10 @@
                         "cooldown":"5 seconds",
                         "range":"100yds",
                         "description":"Teleport to your cursor's location dealing 512 magic damage to all enemies within 12 yards. Deals 900 magic damage to the Nihilist when cast."      
-                    }
+                    
                 },
                 {
-                    "chaosWave": {
+                    
                         "skillName":"Chaos Wave",
                         "icon":"Images/Nihilist/ChaosWave.png",
                         "cost":"250 Mana",
@@ -1004,10 +1002,10 @@
                         "cooldown":"20 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 605-1206 magic damage and applies Fear for 1.8 seconds on impact. You gain Life equal to 100% of the damage dealt. Fear: Causes you to run in a random direction and prevents the use of abilities. Breaks upon receiving damage equal to 9% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "infuse": {
+                    
                         "skillName":"Infuse",
                         "icon":"Images/Nihilist/Infuse.png",
                         "cost":"275 Mana",
@@ -1015,10 +1013,10 @@
                         "cooldown":"3 seconds",
                         "range":"80yds",
                         "description":"Heals target ally for 1190 plus an additional 20% for each alive Orb. Bonus healing effectiveness is reduced by 4% for each additional Orb you have active. Additionally, provides the following bonuses to target ally for each Orb currently placed on the battlefield. Orb of Absolution: Dispels 1 Debuff. Orb of Replenishment: Heals for an additional 30%. Orb of Smoke: Increases Movement Speed by 15% for 3 seconds. Orb of Wisdom: Restores 200 Mana."      
-                    }
+                    
                 },
                 {
-                    "karma": {
+                    
                         "skillName":"Karma",
                         "icon":"Images/Nihilist/Karma.png",
                         "cost":"240 Mana",
@@ -1026,10 +1024,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Applies Karma to target enemy for 8 seconds. Karma: Deals 107 magic damage every second. Steals 53 Life whenever target uses an ability."      
-                    }
+                    
                 },
                 {
-                    "lingeringDemise": {
+                    
                         "skillName":"Lingering Demise",
                         "icon":"Images/Nihilist/LingeringDemise.png",
                         "cost":"295 Mana",
@@ -1037,10 +1035,10 @@
                         "cooldown":"10 seconds",
                         "range":"80yds",
                         "description":"Applies Lingering Demise to target enemy for 8 seconds. Lingering Demise: Upon ending, deals 1776 magic damage. If that enemy was below 25% health, Lingering Demise is a guaranteed Critical Strike. Cannot be dispelled."      
-                    }
+                    
                 },
                 {
-                    "mindLeech": {
+                    
                         "skillName":"Mind Leech",
                         "icon":"Images/Nihilist/MindLeech.png",
                         "cost":"235 Mana",
@@ -1048,10 +1046,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Applies Mind Leech to target enemy for 8 seconds. Mind Leech: Deals 186 every second, healing the Nihilist's party for 5% of damage dealt. The amount of healing received is doubled for the Nihilist. If Mind Leech expires, all party members are healed for 320. If dispelled, deals 455 magic damage to the dispeller."      
-                    }
+                    
                 },
                 {
-                    "orbOfAbsolution": {
+                    
                         "skillName":"Orb Of Absolution",
                         "icon":"Images/Nihilist/OrbOfAbsolution.png",
                         "cost":"100 Mana",
@@ -1059,10 +1057,10 @@
                         "cooldown":"14 seconds",
                         "range":"80yds",
                         "description":"Create an Orb of Absolution at your cursor's location for 2 seconds. Ignores global cooldown. Orb of Absolution: Dispel the most recently applied Debuff or Status Ailment when created and every 2 seconds thereafter from allies within 45 yards. Heals that ally for 287 whenever they are cleansed. Orb of Absolution has 1 health and can be targeted. Your party can only have one Orb of Absolution active at a time."      
-                    }
+                    
                 },
                 {
-                    "orbOfReplenishment": {
+                    
                         "skillName":"Orb Of Replenishment",
                         "icon":"Images/Nihilist/OrbOfReplenishment.png",
                         "cost":"125 Mana",
@@ -1070,10 +1068,10 @@
                         "cooldown":"8 seconds",
                         "range":"80yds",
                         "description":"Create an Orb of Replenishment at your cursor's location for 8 seconds. Ignores global cooldown. Orb of Replenishment: Heals for 241 when created and every second thereafter to allies within 45 yards. Orb of Replenishment has 1 health and can be targeted. Your party can only have one Orb of Replenishment active at a time."      
-                    }
+                    
                 },
                 {
-                    "orbOfSmoke": {
+                    
                         "skillName":"Orb Of Smoke",
                         "icon":"Images/Nihilist/OrbOfSmoke.png",
                         "cost":"100 Mana",
@@ -1081,10 +1079,10 @@
                         "cooldown":"8 seconds",
                         "range":"80yds",
                         "description":"Create an Orb of Smoke at your cursor's location for 8 seconds. Ignores global cooldown. Orb of Smoke: Increases Power by 82, Critical Strike by 6% and provides 3% Lifesteal to all allies within 45 yards. Orb of Smoke has 1 Health and can be targeted. Your party can only have one Orb of Smoke active at a time. Lifesteal: Gain Health equal to a percentage of damage dealt from any source."      
-                    }
+                    
                 },
                 {
-                    "orbOfWisdom": {
+                    
                         "skillName":"Orb Of Wisdom",
                         "icon":"Images/Nihilist/OrbOfWisdom.png",
                         "cost":"0 Mana",
@@ -1092,10 +1090,10 @@
                         "cooldown":"16 seconds",
                         "range":"80yds",
                         "description":"Create an Orb of Wisdom at target location for 4 seconds. Ignores global cooldown. Orb of Wisdom: Restores 75 Mana (95% reduced effectiveness for Energy or Rage) when created and every second thereafter to all allies within 45 yards. Amount of Mana restored increases by 15 every second. Orb of Wisdom has 1 Health and can be targeted. Your party can only have one Orb of Wisdom active at a time."      
-                    }
+                    
                 },
                 {
-                    "rockslide": {
+                    
                         "skillName":"Rockslide",
                         "icon":"Images/Nihilist/Rockslide.png",
                         "cost":"270 Mana",
@@ -1103,10 +1101,10 @@
                         "cooldown":"14 seconds",
                         "range":"80yds",
                         "description":"Creates a Rockslide at your cursor's location. Rockslide: Deals 801 magic damage and applies Stun for 1 second to all enemies within 20 yards. Stun: Disables movement and prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "shadowAffinity": {
+                    
                         "skillName":"Shadow Affinity",
                         "icon":"Images/Nihilist/ShadowAffinity.png",
                         "cost":"300 Mana",
@@ -1114,10 +1112,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Heal target ally for 1811 and applies Shadow Affinity for 6 seconds. Shadow Affinity: Provides 8% Lifesteal. Lifesteal: Gain Health equal to a percentage of damage dealt from any source."      
-                    }
+                    
                 },
                 {
-                    "siphonMana": {
+                    
                         "skillName":"Siphon Mana",
                         "icon":"Images/Nihilist/SiphonMana.png",
                         "cost":"240 Mana",
@@ -1125,10 +1123,10 @@
                         "cooldown":"12 seconds",
                         "range":"80yds",
                         "description":"Applies Siphon Mana to target enemy for 7 seconds. Siphon Mana: Burns 1.25% of current Mana every second (95% reduced effectiveness for Energy or Rage), dealing damage equal to 400% of the amount burned. Ally hits have {Mana Rift}. {Mana Rift}: Steal Mana (95% reduced effectiveness for Energy or Rage) and deal additional damage equal to 3% of damage dealt."      
-                    }
+                    
                 },
                 {
-                    "spellBreaker": {
+                    
                         "skillName":"Spell Breaker",
                         "icon":"Images/Nihilist/SpellBreaker.png",
                         "cost":"315 Mana",
@@ -1136,7 +1134,7 @@
                         "cooldown":"20 seconds",
                         "range":"80yds",
                         "description":"Applies Spell Breaker to target ally for 5 seconds. Spell Breaker: Absorbs 1774 damage. Upon absorbing damage, heal for 50% of the absorbed amount."      
-                    }
+                    
                 }
             ]
         },
@@ -1146,7 +1144,7 @@
             "classLogo":"Images/ClassLogos/Paladingif.gif",
             "skills":[
                 {
-                    "paladinBasicAttack": {
+                    
                         "skillName":"Paladin Basic Attack",
                         "icon":"Images/Paladin/Paladin.png",
                         "cost":"0 Mana",
@@ -1154,10 +1152,10 @@
                         "cooldown":"0 seconds",
                         "range":"14yds",
                         "description":""      
-                    }
+                    
                 },
                 {
-                    "angelicStrike": {
+                    
                         "skillName":"Angelic Strike",
                         "icon":"Images/Paladin/AngelicStrike.png",
                         "cost":"235 Mana",
@@ -1165,10 +1163,10 @@
                         "cooldown":"4 seconds",
                         "range":"14yds",
                         "description":"Deals 710 physical damage. Has a 35% chance to trigger Angelic Favor. Angelic Favor: Causes one of the events to occur: Justice: Applies a 0.8 second Stun to target enemy. Prayer: Heals you for 8% of your maximum health. Insight: Restores 2% of missing Mana. Fanatacism: Deals 515 bonus true damage to target enemy."      
-                    }
+                    
                 },
                 {
-                    "blazingSlash": {
+                    
                         "skillName":"Blazing Slash",
                         "icon":"Images/Paladin/BlazingSlash.png",
                         "cost":"240 Mana",
@@ -1176,10 +1174,10 @@
                         "cooldown":"4 seconds",
                         "range":"14yds",
                         "description":"Deals 678 physical damage and applies Burning for 2 seconds to all enemies within 20 yards. Burning: Deals 3.25% of maximum health every second as magic damage and increases chance to be Critically Hit by 5%."      
-                    }
+                    
                 },
                 {
-                    "divineLight": {
+                    
                         "skillName":"Divine Light",
                         "icon":"Images/Paladin/DivineLight.png",
                         "cost":"320 Mana",
@@ -1187,10 +1185,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Heals target ally for 1294 and applies Grace for 3 seconds. When healing an ally with Grace, heals for an additional 220. Grace: Heals 149 every second."      
-                    }
+                    
                 },
                 {
-                    "heavensStrike": {
+                    
                         "skillName":"Heavens Strike",
                         "icon":"Images/Paladin/HeavensStrike.png",
                         "cost":"285 Mana",
@@ -1198,10 +1196,10 @@
                         "cooldown":"24 seconds",
                         "range":"55yds",
                         "description":"Deals 659 magic damage to target enemy and applies Shock for 2 seconds and Stun for 1.5 seconds. Shock: Amplifies all damage received by 12%. Stun: Disables movement and prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "holyNova": {
+                    
                         "skillName":"Holy Nova",
                         "icon":"Images/Paladin/HolyNova.png",
                         "cost":"450 Mana",
@@ -1209,10 +1207,10 @@
                         "cooldown":"45 seconds",
                         "range":"40yds",
                         "description":"Deals 986 magic damage and applies Burning for 2 seconds to all enemies within 40 yards. Heals 982 and applies Grace for 3 seconds to all allies within 40 yards. Seal of the Crusader Bonus: Applies Blind for 1 second. Seal of the Heavens Bonus: Restores 350 Mana for each ally hit. Burning: Deals 3.25% of maximum health every second as magic damage and increases chance to be Critically Hit by 5%. Grace: Heals 149 every second."      
-                    }
+                    
                 },
                 {
-                    "immortality": {
+                    
                         "skillName":"Immortality",
                         "icon":"Images/Paladin/Immortality.png",
                         "cost":"250 Mana",
@@ -1220,10 +1218,10 @@
                         "cooldown":"60 seconds",
                         "range":"100yds",
                         "description":"Applies Immortality for 4 seconds and Ethereal for 60 seconds to target ally. Ignores global cooldown. Immortality: Provides Immunity to all forms of damage, Debuffs and Status Ailments. Ethereal: Cannot be the target of Immortality. Cannot be dispelled."      
-                    }
+                    
                 },
                 {
-                    "prudence": {
+                    
                         "skillName":"Prudence",
                         "icon":"Images/Paladin/Prudence.png",
                         "cost":"60 Mana",
@@ -1231,10 +1229,10 @@
                         "cooldown":"16 seconds",
                         "range":"55yds",
                         "description":"Deals 719 magic damage to target enemy and applies Prudence for 7 seconds. Seal of the Crusader Bonus: Applies Incapacitate for 1 second. Seal of the Heavens Bonus: Restores 175 Mana. Prudence: Lowers Magic Resistance by 72. Restore Mana equal to 15% of damage dealt when dealing damage to a player suffering from Prudence. Ends after restoring 500 Mana."      
-                    }
+                    
                 },
                 {
-                    "purify": {
+                    
                         "skillName":"Purify",
                         "icon":"Images/Paladin/Purify.png",
                         "cost":"180 Mana",
@@ -1242,10 +1240,10 @@
                         "cooldown":"6 seconds",
                         "range":"80yds",
                         "description":"Cleanses the most recently applied Status Ailment and Debuff from target ally and heals 277 for each effect cleansed."      
-                    }
+                    
                 },
                 {
-                    "sanctuary": {
+                    
                         "skillName":"Sanctuary",
                         "icon":"Images/Paladin/Sanctuary.png",
                         "cost":"n/a",
@@ -1253,10 +1251,10 @@
                         "cooldown":"n/a",
                         "range":"50yds",
                         "description":"Aura: Passively aplies Sanctuary to all allies within 50 yards. Sanctuary: Reduces damage taken by 6%."      
-                    }
+                    
                 },
                 {
-                    "sealOfTheCrusader": {
+                    
                         "skillName":"Seal Of The Crusader",
                         "icon":"Images/Paladin/SealOfTheCrusader.png",
                         "cost":"300 Mana",
@@ -1264,10 +1262,10 @@
                         "cooldown":"60 seconds",
                         "range":"0yds",
                         "description":"Applies Crusader's Fury to you for 60 seconds. Crusader's Fury: Your damaging abilities deal an additional 120 magic damage, restore 1% of your missing Mana, and have a 20% chance to cause Crusader's Fury to deal double damage. For each different damaging ability used, the effectiveness increases by 4% (maximum 20%). Reduces Divine Light healing by 15%. You can only have one Seal active at a time. Your seal cannot be dispelled."      
-                    }
+                    
                 },
                 {
-                    "sealOfTheHeavens": {
+                    
                         "skillName":"Seal Of The Heavens",
                         "icon":"Images/Paladin/SealOfTheHeavens.png",
                         "cost":"300 Mana",
@@ -1275,10 +1273,10 @@
                         "cooldown":"60 seconds",
                         "range":"80yds",
                         "description":"Applies Heavens Guidance to you for 60 seconds. Heavens Guidance: Causes your Basic Attacks to restore 2% of your Party's missing health, increases your Healing Power by 20% and Magic Resist by 135. Total Healing Power is increased by 2% whenever you cast Cleanse, Divine Light, Glimmer of Light, or Stream of Light (maximum 10%). You can only have one Seal active at a time. Your seal cannot be dispelled."      
-                    }
+                    
                 },
                 {
-                    "sear": {
+                    
                         "skillName":"Sear",
                         "icon":"Images/Paladin/Sear.jpg",
                         "cost":"270 Mana",
@@ -1286,10 +1284,10 @@
                         "cooldown":"7 seconds",
                         "range":"55yds",
                         "description":"Deals 387 magic damage and applies Sear for 4 seconds. If target is Burning, dealing an additional 154 magic damage for each second remaining on the Burning duration. Ignores global cooldown. Sear: Increases damage taken from Burning by 20% and decreases Movement Speed by 20%. Burning: Deals 3.25% of maximum health every second as magic damage and increases chance to be Critically Hit by 5%."      
-                    }
+                    
                 },
                 {
-                    "shatteringSlash": {
+                    
                         "skillName":"Shattering Slash",
                         "icon":"Images/Paladin/ShatteringSlash.png",
                         "cost":"230 Mana",
@@ -1297,10 +1295,10 @@
                         "cooldown":"7 seconds",
                         "range":"14yds",
                         "description":"Deals 754 physical damage to target enemy and removes their most recently applied Buff. If a Buff was removed, deals an additional 476 true damage"      
-                    }
+                    
                 },
                 {
-                    "streamofLight": {
+                    
                         "skillName":"Stream Of Light",
                         "icon":"Images/Paladin/StreamOfLight.png",
                         "cost":"210 Mana",
@@ -1308,10 +1306,10 @@
                         "cooldown":"4 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target ally healing for 1024 and applies Grace for 3 seconds. Heals an additional 554 if that ally already had Grace. Grace: Heals 149 every second."      
-                    }
+                    
                 },
                 {
-                    "valor": {
+                    
                         "skillName":"Valor",
                         "icon":"Images/Paladin/Valor.png",
                         "cost":"190 Mana",
@@ -1319,10 +1317,10 @@
                         "cooldown":"40 seconds",
                         "range":"80yds",
                         "description":"Applies Valor to you with 9 Charges for 8 seconds. Valor: Provides Immunity to Silence and Interrupts. Increases Armor and Magic Resist by 346. Loses a Charge upon receiving 500 damage. Valor ends when out of Charges. Silence: Prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "wrathOfHeaven": {
+                    
                         "skillName":"Wrath Of Heaven",
                         "icon":"Images/Paladin/WrathOfHeaven.png",
                         "cost":"245 Mana",
@@ -1330,7 +1328,7 @@
                         "cooldown":"15 seconds",
                         "range":"80yds",
                         "description":"Deals 823 magic damage and applies Blind for 1.3 seconds to target enemy and all enemies within 12 yards. Blind: Reduces Power by 12% and causes your screen to go white, hindering your vision."      
-                    }
+                    
                 }
             ]
         },
@@ -1340,7 +1338,7 @@
             "classLogo":"Images/ClassLogos/Rangergif.gif",
             "skills":[
                 {
-                    "rangerBasicAttack": {
+                    
                         "skillName":"Ranger Basic Attack",
                         "icon":"Images/Ranger/Ranger.png",
                         "cost":"0 Energy",
@@ -1348,10 +1346,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 475 physical damage."      
-                    }
+                    
                 },
                 {
-                    "aetherShot": {
+                    
                         "skillName":"Aether Shot",
                         "icon":"Images/Ranger/AetherShot.jpg",
                         "cost":"40 Energy",
@@ -1359,10 +1357,10 @@
                         "cooldown":"10 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 290 magic damage on impact and applies Aether Shot for 6 seconds. Aether Shot: Burns 25 Mana plus an additional 1% of current Mana (95% reduced effectiveness for Energy or Rage) every second. Deals 110 magic damage and burns 30 Mana whenever an ability is used."      
-                    }
+                    
                 },
                 {
-                    "elementalArrow": {
+                    
                         "skillName":"Elemental Arrow",
                         "icon":"Images/Ranger/ElementalArrow.jpg",
                         "cost":"50 Energy",
@@ -1370,10 +1368,10 @@
                         "cooldown":"8 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 694 magic damage, applies Burning and Chill for 2 seconds, and Freeze for 1 second to target enemy. Burning: Deals 3.25% of maximum health every second as magic damage and increases chance to be Critically Hit by 5%. Chill: Decreases Movement Speed by 30%. Freeze: Decreases Movement Speed to 0%. Breaks upon receiving damage equal to 20% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "headShot": {
+                    
                         "skillName":"Head Shot",
                         "icon":"Images/Ranger/HeadShot.jpg",
                         "cost":"65 Energy",
@@ -1381,10 +1379,10 @@
                         "cooldown":"11 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 851 physical damage and applies Hobble for 2 seconds and Stun for 1.25 seconds. Hobble: Decreases Movement Speed by 60% and increases physical damage taken by 3%. Stun: Disables movement and prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "lightningArrow": {
+                    
                         "skillName":"Lightning Arrow",
                         "icon":"Images/Ranger/LightningArrow.png",
                         "cost":"60 Energy",
@@ -1392,10 +1390,10 @@
                         "cooldown":"12 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 732 magic damage on impact, removing the most recently applied Buff and applies Shock for 3 seconds. Shock: Amplifies all damage received by 12%."      
-                    }
+                    
                 },
                 {
-                    "markOfDeath": {
+                    
                         "skillName":"Mark Of Death",
                         "icon":"Images/Ranger/MarkOfDeath.png",
                         "cost":"n/a",
@@ -1403,10 +1401,10 @@
                         "cooldown":"n/a",
                         "range":"100yds",
                         "description":"Aura: Passively applies Mark of Death to all enemies within 100 yards that are below 25% Health. Mark of Death: You are being hunted! Being vulnerable causes you to to receive 8% increased damage from all sources. This effect is doubled when under 10% Health and tripled when under 5% Health."      
-                    }
+                    
                 },
                 {
-                    "nightmareShot": {
+                    
                         "skillName":"Nightmare Shot",
                         "icon":"Images/Ranger/NightmareShot.png",
                         "cost":"40 Energy",
@@ -1414,10 +1412,10 @@
                         "cooldown":"22 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 633 physical damage on impact and applies Fear for 1.6 seconds. Fear: Causes you to run in a random direction and prevents the use of abilities. Breaks upon receiving damage equal to 9% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "poisonousShot": {
+                    
                         "skillName":"Poisonous Shot",
                         "icon":"Images/Ranger/PoisonousShot.jpg",
                         "cost":"40 Energy",
@@ -1425,10 +1423,10 @@
                         "cooldown":"7 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 591 physical damage on impact and applies Infection and Poison for 3 seconds. Infection: Reduces maximum health by 10%, all healing received by 30% and deals 1% of maximum health every second as physical damage. Poison: Decreases Movement Speed by 15% and deals 2% of maximum health every second as true damage. Cannot be removed as a slowing effect."      
-                    }
+                    
                 },
                 {
-                    "quicksand": {
+                    
                         "skillName":"Quicksand",
                         "icon":"Images/Ranger/Quicksand.jpg",
                         "cost":"50 Energy",
@@ -1436,10 +1434,10 @@
                         "cooldown":"25 seconds",
                         "range":"40yds",
                         "description":"Creates Quicksand at your feet for 6 seconds. Quicksand: Applies Hobble for 2 seconds to all enemies within 40 yards every second. Has a 15% chance to apply Grasping Vines for 1 second. Hobble: Decreases Movement Speed by 60% and increases physical damage taken by 3%. Grasping Vines: Decreases Movement Speed to 0 and deals 232 damage per second. Breaks upon receiving damage equal to 25% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "rainOfArrows": {
+                    
                         "skillName":"Rain Of Arrows",
                         "icon":"Images/Ranger/RainOfArrows.jpg",
                         "cost":"60 Energy",
@@ -1447,10 +1445,10 @@
                         "cooldown":"15 seconds",
                         "range":"80yds",
                         "description":"Creates Rain of Arrows at your cursor's location for 2 seconds. Rain of Arrows: Critically deals 485 physical damage."      
-                    }
+                    
                 },
                 {
-                    "silencingShot": {
+                    
                         "skillName":"Silencing Shot",
                         "icon":"Images/Ranger/SilencingShot.jpg",
                         "cost":"30 Energy",
@@ -1458,10 +1456,10 @@
                         "cooldown":"16 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 364 physical damage to target and Interrupts for 3 seconds. If an ability was Interrupted, applies Silence for 1.5 seconds and deals an additional 364 physical damage. Ignores global cooldown. Interrupt: Prevents the current casting spell from being performed and locks it for a short period of time if the spell has a cooldown. Silence: Prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "twistingShot": {
+                    
                         "skillName":"Twisting Shot",
                         "icon":"Images/Ranger/TwistingShot.jpg",
                         "cost":"35 Energy",
@@ -1469,10 +1467,10 @@
                         "cooldown":"4 seconds",
                         "range":"80yds",
                         "description":"Shoots an arrow at target enemy dealing 757 physical damage on impact, applying Pierce for 3 seconds. Pierce: Causes the next instance of physical damage to deal an additional 237."      
-                    }
+                    
                 },
                 {
-                    "vigor": {
+                    
                         "skillName":"Vigor",
                         "icon":"Images/Ranger/Vigor.jpg",
                         "cost":"0 Energy",
@@ -1480,7 +1478,7 @@
                         "cooldown":"20 seconds",
                         "range":"80yds",
                         "description":"Removes all movement impairing Debuffs, and applies Vigor to you for 1 second. Using an attack skill breaks Vigor. Vigor: You are invisible, immune to all forms of Crowd Control and damage. Movement Speed is increased by 25%."      
-                    }
+                    
                 }
             ]
         },
@@ -1490,7 +1488,7 @@
             "classLogo":"Images/ClassLogos/Scholargif.gif",
             "skills":[
                 {
-                    "scholarBasicAttack": {
+                    
                         "skillName":"Scholar Basic Attack",
                         "icon":"Images/Scholar/Scholar.png",
                         "cost":"0 Mana",
@@ -1498,10 +1496,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 377 magic damage."      
-                    }
+                    
                 },
                 {
-                    "armageddon": {
+                    
                         "skillName":"Armageddon",
                         "icon":"Images/Scholar/Armageddon.jpg",
                         "cost":"315 Mana",
@@ -1509,10 +1507,10 @@
                         "cooldown":"15 seconds",
                         "range":"100yds",
                         "description":"Creates a fiery Armageddon at your cursor's location for 4 seconds. Armageddon: Deals 783 magic damage every second and applies Burning for 2 seconds to all enemies within 27 yards. Burning: Deals 3.25% of maximum health every second as magic damage and increases chance to be Critically Hit by 5%."      
-                    }
+                    
                 },
                 {
-                    "etherealBindings": {
+                    
                         "skillName":"Ethereal Bindings",
                         "icon":"Images/Scholar/EtherealBindings.jpg",
                         "cost":"260 Mana",
@@ -1520,10 +1518,10 @@
                         "cooldown":"15 seconds",
                         "range":"100yds",
                         "description":"Applies Ethereal Binding to target enemy for 3 seconds. Ethereal Bindings: Decreases Movement Speed to 0%. Breaks upon receiving damage equal to 30% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "gospelOfDefiance": {
+                    
                         "skillName":"Gospel Of Defiance",
                         "icon":"Images/Scholar/GospelOfDefiance.jpg",
                         "cost":"330 Mana",
@@ -1531,10 +1529,10 @@
                         "cooldown":"14 seconds",
                         "range":"0yds",
                         "description":"Applies Gospel of Defiance to all party members for 3 seconds. Gospel of Defiance: Increases Armor and Magic Resist by 328. Deals 255 magic damge to all enemies within 12 yards every second. Explodes after receiving a total of 1000 damage, dealing 391 and applying Burning to all enemies within 16 yards for 2 seconds. Burning: Deals 3.25% of maximum health every second as magic damage and increases chance to be Critically Hit by 5%."      
-                    }
+                    
                 },
                 {
-                    "gospelOfHarmony": {
+                    
                         "skillName":"Gospel Of Harmony",
                         "icon":"Images/Scholar/GospelOfHarmony.jpg",
                         "cost":"370 Mana",
@@ -1542,10 +1540,10 @@
                         "cooldown":"7 seconds",
                         "range":"0yds",
                         "description":"Heals all party members for 988 and applies Gospel of Harmony to them for 7 seconds. Gospel of Harmony: Heals 153 every second."      
-                    }
+                    
                 },
                 {
-                    "gospelOfOnslaught": {
+                   
                         "skillName":"Gospel Of Onslaught",
                         "icon":"Images/Scholar/GospelOfOnslaught.png",
                         "cost":"185 Mana",
@@ -1553,10 +1551,10 @@
                         "cooldown":"60 seconds",
                         "range":"0yds",
                         "description":"Applies Gospel of Onslaught to all party members for 8 seconds. Gospel of Onslaught: Increases Power by 13%."      
-                    }
+                    
                 },
                 {
-                    "gospelOfPurity": {
+                    
                         "skillName":"Gospel Of Purity",
                         "icon":"Images/Scholar/GospelOfPurity.png",
                         "cost":"345 Mana",
@@ -1564,10 +1562,10 @@
                         "cooldown":"12 seconds",
                         "range":"0yds",
                         "description":"Cleanse the most recently applied Status Ailment or Debuff from all allies and heals for 339 if a Status Ailment or Debuff was cleaned."      
-                    }
+                    
                 },
                 {
-                    "immortality": {
+                    
                         "skillName":"Immortality",
                         "icon":"Images/Scholar/Immortality.png",
                         "cost":"250 Mana",
@@ -1575,10 +1573,10 @@
                         "cooldown":"60 seconds",
                         "range":"100yds",
                         "description":"Applies Immortality for 4 seconds and Ethereal for 60 seconds to target ally. Ignores global cooldown. Immortality: Provides Immunity to all forms of damage, Debuffs and Status Ailments. Ethereal: Cannot be the target of Immortality. Cannot be dispelled."      
-                    }
+                    
                 },
                 {
-                    "judgement": {
+                   
                         "skillName":"Judgement",
                         "icon":"Images/Scholar/Judgement.jpg",
                         "cost":"230 Mana",
@@ -1586,10 +1584,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Deals 493 magic damage and applies Judgement for 5 seconds to target and all enemies within 15 yards. Enemies struck have a 20% chance to be Blind for 0.4 seconds. Judgement: Deals 141 magic damage every second. Blind: Reduces Power by 12% and causes your screen to go white, hindering your vision."      
-                    }
+                    
                 },
                 {
-                    "lifeBurst": {
+                    
                         "skillName":"Life Burst",
                         "icon":"Images/Scholar/LifeBurst.jpg",
                         "cost":"265 Mana",
@@ -1597,10 +1595,10 @@
                         "cooldown":"4 seconds",
                         "range":"80yds",
                         "description":"Applies Life Burst to target ally for 8 seconds. Life Burst: Heals 228 every second. The next source of damage that would deal over 400 damage is Absorbed and instantly heals for 1000, causing Life Burst to expire."      
-                    }
+                    
                 },
                 {
-                    "mesmerize": {
+                    
                         "skillName":"Mesmerize",
                         "icon":"Images/Scholar/Mesmerize.jpg",
                         "cost":"180 Mana",
@@ -1608,10 +1606,10 @@
                         "cooldown":"16 seconds",
                         "range":"25yds",
                         "description":"Deals 480 and applies Hobble for 4 seconds and Incapacitate for 2 seconds to all enemies within 22 yards of you. Hobble: Decreases Movement Speed by 60% and increases physical damage taken by 3%. Incapacitate: Disables movement and prevents the use of abilities. Breaks on receiving damage."      
-                    }
+                    
                 },
                 {
-                    "portal": {
+                    
                         "skillName":"Portal",
                         "icon":"Images/Scholar/Portal.jpg",
                         "cost":"300 Mana",
@@ -1619,10 +1617,10 @@
                         "cooldown":"14 seconds",
                         "range":"100yds",
                         "description":"Swap position with your target. If your target is an enemy, Interrupts for 2 seconds and applies Portal for 1 second. If your target is an ally, you are both healed for 785. Interrupt: Prevents the current casting spell from being performed and locks it for a short period of time if the spell has a cooldown. Portal: Decreases Movement Speed by 66%."      
-                    }
+                    
                 },
                 {
-                    "riteOfPassage": {
+                    
                         "skillName":"Rite Of Passage",
                         "icon":"Images/Scholar/RiteOfPassage.jpg",
                         "cost":"135 Mana",
@@ -1630,10 +1628,10 @@
                         "cooldown":"20 seconds",
                         "range":"100yds",
                         "description":"Applies Rite of Passage to target ally for 5 seconds. Rite of Passage: Increases Movement Speed by 15%. Provides Immunity to all root and slowing Debuffs. Heals for 195 every second."      
-                    }
+                    
                 },
                 {
-                    "silence": {
+                   
                         "skillName":"Silence",
                         "icon":"Images/Scholar/Silence.jpg",
                         "cost":"260 Mana",
@@ -1641,10 +1639,10 @@
                         "cooldown":"30 seconds",
                         "range":"0yds",
                         "description":"Applies Silence to all enemies for 2.5 seconds. Silence: Prevents the use of abilities."      
-                    }
+                    
                 },
                 {
-                    "transferLife": {
+                   
                         "skillName":"Transfer Life",
                         "icon":"Images/Scholar/TransferLife.jpg",
                         "cost":"285 Mana",
@@ -1652,10 +1650,10 @@
                         "cooldown":"0 seconds",
                         "range":"100yds",
                         "description":"Heals target ally for 1323. When cast on yourself heals an additional 123, otherwise transfer 8% of your current health to target ally. Heals an additional 4% for each Gospel on target ally."      
-                    }
+                    
                 },
                 {
-                    "truth": {
+                   
                         "skillName":"Truth",
                         "icon":"Images/Scholar/Truth.jpg",
                         "cost":"n/a",
@@ -1663,7 +1661,7 @@
                         "cooldown":"n/a",
                         "range":"80yds",
                         "description":"Passively applies Truth to all allies within 80 yards. Truth: Increases Movement Speed by 8% and restores 12 Mana (95% reduced effectiveness for Energy and Rage) every second. Amount of Mana restored is doubled for the Scholar. Provides a 10% chance to restore 65 Health and 40 Mana (95% reduced effectiveness for Energy and Rage) whenever using an ability."      
-                    }
+                    
                 }
             ]
         },
@@ -1673,7 +1671,7 @@
             "classLogo":"Images/ClassLogos/Wizardgif.gif",
             "skills":[
                 {
-                    "wizardBasicAttack": {
+                    
                         "skillName":"Wizard Basic Attack",
                         "icon":"Images/Wizard/Wizard.png",
                         "cost":"0 Mana",
@@ -1681,10 +1679,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 691 magic damage."      
-                    }
+                    
                 },
                 {
-                    "combust": {
+                   
                         "skillName":"Combust",
                         "icon":"Images/Wizard/Combust.jpg",
                         "cost":"25  0 Mana",
@@ -1692,10 +1690,10 @@
                         "cooldown":"9 seconds",
                         "range":"80yds",
                         "description":"Applies Combust for 5 seconds and Burning for 3 seconds to target enemy and all enemies within 14 yards. Combust: Causes Burning to deal 30% more damage each tick. Become vulnerable to the next incoming Fireball, Volcanic Eruption, or Meteor, increasing the damage received by those spells by 33% and causing it to deal an additional 5% magic damage equal to your maximum health, consuming Combust."      
-                    }
+                    
                 },
                 {
-                    "counterspell": {
+                    
                         "skillName":"Counterspell",
                         "icon":"Images/Wizard/Counterspell.jpg",
                         "cost":"210 Mana",
@@ -1703,10 +1701,10 @@
                         "cooldown":"15 seconds",
                         "range":"80yds",
                         "description":"Interrupts target enemy for 4 seconds and applies Silence for 2 seconds."      
-                    }
+                    
                 },
                 {
-                    "crystallize": {
+                    
                         "skillName":"Crystallize",
                         "icon":"Images/Wizard/Crystallize.png",
                         "cost":"220 Mana",
@@ -1714,10 +1712,10 @@
                         "cooldown":"40 seconds",
                         "range":"0yds",
                         "description":"Applies Crystallize to you for 3 seconds. Crystallize: Covers you in ice, rendering you unable to move or cast. Cleanses all Status Ailments and Debuffs, providing immunity to all hostile effects and all forms of damage. Restores a total of 60% missing health over the duration."      
-                    }
+                    
                 },
                 {
-                    "eyeOfTheStorm": {
+                    
                         "skillName":"Eye Of The Storm",
                         "icon":"Images/Wizard/EyeOfTheStorm.png",
                         "cost":"300 Mana",
@@ -1725,10 +1723,10 @@
                         "cooldown":"11 seconds",
                         "range":"80yds",
                         "description":"Creates Eye Of The Storm at your cursor's location for 3 seconds. Eye Of The Storm: Deals 580 magic damage and applies Frostbolt and Shock for 2 seconds every second."      
-                    }
+                    
                 },
                 {
-                    "fireball": {
+                    
                         "skillName":"Fireball",
                         "icon":"Images/Wizard/Fireball.jpg",
                         "cost":"260 Mana",
@@ -1736,10 +1734,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 1347 magic damage, plus an additional 3% of their maximum health as magic damage, and applies Burning on impact."      
-                    }
+                    
                 },
                 {
-                    "flashFreeze": {
+                    
                         "skillName":"Flash Freeze",
                         "icon":"Images/Wizard/FlashFreeze.jpg",
                         "cost":"240 Mana",
@@ -1747,10 +1745,10 @@
                         "cooldown":"14 seconds",
                         "range":"34yds",
                         "description":"Deals 943 magic damage and applies Flash Freeze for 4 seconds to all enemies within 40 yards of you. Flash Freeze: Decreases Movement Speed to 0%. Breaks upon receiving damage equal to 12% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "frostbolt": {
+                    
                         "skillName":"Frostbolt",
                         "icon":"Images/Wizard/Frostbolt.jpg",
                         "cost":"225 Mana",
@@ -1758,10 +1756,10 @@
                         "cooldown":"0 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 1254 magic damage and applies Frostbolt on for 4 seconds on impact. Frostbolt: Decreases Movement Speed by 30%."      
-                    }
+                    
                 },
                 {
-                    "geyser": {
+                    
                         "skillName":"Geyser",
                         "icon":"Images/Wizard/Geyser.jpg",
                         "cost":"240 Mana",
@@ -1769,10 +1767,10 @@
                         "cooldown":"12 seconds",
                         "range":"80yds",
                         "description":"Creates a Geyser at your cursor's location that erupts after 0.8 seconds. Geyser: Deals 801 magic damage and applies Geyser for 5 seconds to all enemies within 25 yards. Geyser: Decreases Armor, Magic Resist, and Movement Speed by 30%."      
-                    }
+                    
                 },
                 {
-                    "iceSpikes": {
+                    
                         "skillName":"Ice Spikes",
                         "icon":"",
                         "cost":"220 Mana",
@@ -1780,10 +1778,10 @@
                         "cooldown":"14 seconds",
                         "range":"80yds",
                         "description":"Deals 966 magic damage to target enemy. If your target is under the effects of Frostbolt, Flash Freeze, Geyser, or Ice Spikes this spell is a guaranteed Critical Strike and applies Stun for 2 seconds. Otherwise, apply Ice Spikes to your target for 3 seconds. Ice Spikes Decreases Movement Speed by 66%."      
-                    }
+                    
                 },
                 {
-                    "lightningStrike": {
+                    
                         "skillName":"Lightning Strike",
                         "icon":"Images/Wizard/LightningStrike.jpg",
                         "cost":"220 Mana",
@@ -1791,10 +1789,10 @@
                         "cooldown":"7 seconds",
                         "range":"80yds",
                         "description":" Deals 1131 magic damage to target enemy and removes 1 of their Buffs. If a Buffs was removed, applies Shock for 3 seconds."      
-                    }
+                    
                 },
                 {
-                    "magicMissiles": {
+                    
                         "skillName":"Magic Missiles",
                         "icon":"Images/Wizard/MagicMissiles.png",
                         "cost":"225 Mana",
@@ -1802,10 +1800,10 @@
                         "cooldown":"3 seconds",
                         "range":"80yds",
                         "description":"Shoots a projectile at target enemy dealing 1057 magic damage on impact. Magic Missiles is a guaranteed Critical Strike and deals an additional 569 if your target is under the effect of Frostbolt, Flash Freeze, Geyser, or Ice Spikes."      
-                    }
+                    
                 },
                 {
-                    "masterOfMagic": {
+                    
                         "skillName":"Master Of Magic",
                         "icon":"Images/Wizard/MasterOfMagic.jpg",
                         "cost":"0 Mana",
@@ -1813,10 +1811,10 @@
                         "cooldown":"15 seconds",
                         "range":"0yds",
                         "description":"Applies Master Of Magic to you for 10 seconds. Master Of Magic: Increases the damage of your next spell by 30% and restores Mana equal to the casting cost of the spell."      
-                    }
+                    
                 },
                 {
-                    "meteor": {
+                    
                         "skillName":"Meteor",
                         "icon":"Images/Wizard/Meteor.jpg",
                         "cost":"300 Mana",
@@ -1824,10 +1822,10 @@
                         "cooldown":"22 seconds",
                         "range":"80yds",
                         "description":"Creates a Meteor at your cursor's location that lands after 1 second. Meteor: Deals 807 magic damage and 807 physical damage and applies Burning for 2 seconds to all enemies within 20 yards."      
-                    }
+                    
                 },
                 {
-                    "runicShield": {
+                    
                         "skillName":"Runic Shield",
                         "icon":"Images/Wizard/RunicShield.jpg",
                         "cost":"115 Mana",
@@ -1835,10 +1833,10 @@
                         "cooldown":"14 seconds",
                         "range":"80yds",
                         "description":"Applies Runic Shield to target ally for 5 seconds. Runic Shield: Absorbs 2380 damage and restores 65 Mana (95% reduced effectiveness for Energy and Rage) every second."      
-                    }
+                    
                 },
                 {
-                    "sheepify": {
+                    
                         "skillName":"Sheepify",
                         "icon":"Images/Wizard/Sheepify.png",
                         "cost":"210 Mana",
@@ -1846,10 +1844,10 @@
                         "cooldown":"14 seconds",
                         "range":"80yds",
                         "description":"Applies Sheepify to target enemy for 3 seconds. Sheepify: Transform into a sheep, decreasing Movement Speed by 20% and causes you to wander aimlessly, preventing the use of abilities. Breaks upon receiving damage equal to 8% of your maximum health."      
-                    }
+                    
                 },
                 {
-                    "shockNova": {
+                   
                         "skillName":"Shock Nova",
                         "icon":"Images/Wizard/ShockNova.png",
                         "cost":"350 Mana",
@@ -1857,10 +1855,10 @@
                         "cooldown":"2 seconds",
                         "range":"14yds",
                         "description":"Deals 585 magic damage and has a 75% chance to apply Shock for 3 seconds to all enemies within 35 yards of you. Deals an additional 186 damage if the target is Shocked."      
-                    }
+                    
                 },
                 {
-                    "teleport": {
+                    
                         "skillName":"Teleport",
                         "icon":"Images/Wizard/Teleport.jpg",
                         "cost":"125 Mana",
@@ -1868,10 +1866,10 @@
                         "cooldown":"14 seconds",
                         "range":"100yds",
                         "description":"Teleport to your cursor's location."      
-                    }
+                    
                 },
                 {
-                    "thundersWrath": {
+                    
                         "skillName":"Thunders Wrath",
                         "icon":"Images/Wizard/ThundersWrath.jpg",
                         "cost":"210 Mana",
@@ -1879,10 +1877,10 @@
                         "cooldown":"8 seconds",
                         "range":"100yds",
                         "description":"Dispel target ally and all allies within 20 yards of that ally. Deals 716 magic damage to all enemies within 20 yards of target ally."      
-                    }
+                    
                 },
                 {
-                    "volcanicEruption": {
+                    
                         "skillName":"Volcanic Eruption",
                         "icon":"Images/Wizard/VolcanicEruption.jpg",
                         "cost":"240 Mana",
@@ -1890,7 +1888,7 @@
                         "cooldown":"16 seconds",
                         "range":"80yds",
                         "description":"Creates Volcanic Eruption at cursor's location that erupts after 0.5 seconds. Volcanic Eruption: Deals 1317 magic damage and applies Stun for 2 seconds to all enemies within 15 yards."      
-                    }
+                    
                 }
             ]
         }

@@ -29,8 +29,8 @@ export const Navbar = () => {
                 color: "red"
             }}
                 exact style = {style}
-                to ="/characters">
-                Characters
+                to ="/classes">
+                Classes
             </NavLink>
             <NavLink
             activeStyle={{
