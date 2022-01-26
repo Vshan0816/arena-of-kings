@@ -2,7 +2,7 @@
 
 ## Description
 
-This Project centers around a pc game called arena of kings. The intention of this app is an attempt to act as a database of the game to provide information about the game while in a browser. The images and information about the game were taken from https://arenaofkings.fandom.com/wiki/Arena_of_Kings_Wiki. 
+This Project centers around a pc game called Arena of Kings. Arena of Kings is a 3v3 multiplayer game on Steam developed by Villain Games that was launched in 2021. The intention of this app is an attempt to act as a database of the game to provide information about the game while in a browser. It is an attempt to reinterpret the official wikipedia page. The images and information about the game were taken from the official wikipedia page at https://arenaofkings.fandom.com/wiki/Arena_of_Kings_Wiki. Once launched in the browser, head to the home page for futher instructions.
 
 ## Installation
 
