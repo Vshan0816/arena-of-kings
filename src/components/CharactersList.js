@@ -1,7 +1,7 @@
 import { useEffect, useState} from 'react';
 import { CharacterCard } from './CharacterCard';
 
-export const YourCharacters = ({classes}) => {
+export const CharactersList = ({classes}) => {
   const [characters, setCharacters] = useState([])
   const fetchData = () => {
     fetch("http://localhost:3001/characters")
@@ -12,7 +12,7 @@ export const YourCharacters = ({classes}) => {
 
   useEffect(() => {
     fetchData()
-  }, [characters]) 
+  }, []) 
 
 
   const CharactersCard = characters.map(character => {
@@ -25,6 +25,7 @@ export const YourCharacters = ({classes}) => {
 
   return (
     <div>
+      <h2>Here are Your Characters</h2>
       <div style ={{display: "flex", flexWrap: "wrap"}}> 
         {CharactersCard}
       </div>

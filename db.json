@@ -25,6 +25,45 @@
       "skill7": "Slap",
       "skill8": "Stealth",
       "id": 2
+    },
+    {
+      "name": "Bob",
+      "classType": "Champion",
+      "skill1": "Disrupting Blade",
+      "skill2": "Whirlwind",
+      "skill3": "Sprint",
+      "skill4": "Slashing Strike",
+      "skill5": "Resounding Warcry",
+      "skill6": "Master Of The Sword",
+      "skill7": "Lacerate",
+      "skill8": "Intimidation",
+      "id": 3
+    },
+    {
+      "name": "Kevin",
+      "classType": "Lich",
+      "skill1": "Lich Basic Attack",
+      "skill2": "Terrify",
+      "skill3": "Torment",
+      "skill4": "Underworld Armor",
+      "skill5": "Sacrifice Soul",
+      "skill6": "Pestilence",
+      "skill7": "Poison Nova",
+      "skill8": "Nether Bolt",
+      "id": 4
+    },
+    {
+      "name": "Alice",
+      "classType": "Ranger",
+      "skill1": "Ranger Basic Attack",
+      "skill2": "Vigor",
+      "skill3": "Twisting Shot",
+      "skill4": "Rain Of Arrows",
+      "skill5": "Quicksand",
+      "skill6": "Nightmare Shot",
+      "skill7": "Aether Shot",
+      "skill8": "Vigor",
+      "id": 5
     }
   ],
   "classes": [

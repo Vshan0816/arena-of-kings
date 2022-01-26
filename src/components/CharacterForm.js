@@ -4,7 +4,6 @@ import {useHistory} from 'react-router-dom'
 export const CharacterForm = ({classes}) => {
     const history = useHistory()
     const [classType, setClassType] = useState("")
-    const [filteredClass, setFilteredClass] = useState([])
     const [filteredSkillList, setFilteredSkillList] = useState([])
     const [name, setName] = useState("")
     const [skill1, setSkill1] = useState("")
@@ -31,10 +30,7 @@ export const CharacterForm = ({classes}) => {
     
 
     const handleSelect = (selectValue) => {
-        // console.log(selectValue)
         const filteredClasses = classes.filter(classs=> classs.class===selectValue)
-        setFilteredClass(filteredClasses)
-        // console.log(filteredClasses)
         const filteredSkills = filteredClasses[0].skills.map( skill => {
             return skill.skillName
         })
@@ -76,6 +72,7 @@ export const CharacterForm = ({classes}) => {
             {filteredSkillList.map(skillName =>{
                 return <p>{`${skillName}`}</p>
             })}
+            
             <label htmlFor="skill1">Choose First Skill</label>
             <input onChange={e => setSkill1(e.target.value)} type="text" value={skill1} /><br />< br />
             <label htmlFor="skill2">Choose Second Skill</label>

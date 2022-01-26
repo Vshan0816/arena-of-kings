@@ -7,7 +7,7 @@ import {CharacterForm} from './CharacterForm'
 import {Home} from './Home'
 import {ClassesContainer} from '../containers/ClassesContainer'
 import {SkillsContainer} from '../containers/SkillsContainer'
-import {YourCharacters} from './YourCharacters'
+import {CharactersList} from './CharactersList'
 import {useState, useEffect} from 'react'
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
           
           </Route>
           <Route path ="/characters/list">
-            <YourCharacters classes={classes}/>
+            <CharactersList classes={classes}/>
           
           </Route>
           <Route path ="/classes/:id">
