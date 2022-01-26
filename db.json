@@ -1,6 +1,6 @@
 {
   "characters": [
-   {
+    {
       "name": "Example Character",
       "classType": "Assassin",
       "skill1": "Annihilate",
@@ -12,6 +12,19 @@
       "skill7": "Murderous Instincts",
       "skill8": "Puncture",
       "id": 1
+    },
+    {
+      "name": "Vincent",
+      "classType": "Assassin",
+      "skill1": "Assassin Basic Attack",
+      "skill2": "Annihilate",
+      "skill3": "Bandage",
+      "skill4": "Dash",
+      "skill5": "Daze",
+      "skill6": "Puncture",
+      "skill7": "Slap",
+      "skill8": "Stealth",
+      "id": 2
     }
   ],
   "classes": [
