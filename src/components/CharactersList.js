@@ -16,7 +16,6 @@ export const CharactersList = ({classes}) => {
 
 
   const CharactersCard = characters.map(character => {
-    // console.log(character)
     return <CharacterCard 
       key={character.id} 
       character={character}

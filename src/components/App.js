@@ -2,7 +2,6 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {Navbar} from './Navbar'
-import {Header} from './Header'
 import {CharacterForm} from './CharacterForm'
 import {Home} from './Home'
 import {ClassesContainer} from '../containers/ClassesContainer'
@@ -26,7 +25,6 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Header />
         <Switch>
           <Route path ="/characters/new">
             <CharacterForm classes={classes}/>
